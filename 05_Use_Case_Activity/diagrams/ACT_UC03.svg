@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1928" height="515" viewBox="0 0 1928 515" font-family="Segoe UI, Arial, sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1f2937"/></marker></defs>
+<rect width="1928" height="515" fill="#fff"/>
+<rect x="30" y="30" width="1868" height="455" fill="none" stroke="#1f2937" stroke-width="1.5"/>
+<line x1="64" y1="30" x2="64" y2="485" stroke="#1f2937" stroke-width="1.5"/>
+<text transform="translate(52.0,257.5) rotate(-90)" text-anchor="middle" font-size="13" font-weight="700" fill="#1f2937">ACT-03 · UC-03 Cập nhật trạng thái món</text>
+<rect x="64" y="30" width="34" height="215" fill="#f9fafb" stroke="#d1d5db"/>
+<text transform="translate(85.0,137.5) rotate(-90)" text-anchor="middle" font-size="12" font-weight="600" fill="#1f2937">Bếp (KDS)</text>
+<line x1="64" y1="245" x2="1898" y2="245" stroke="#d1d5db"/>
+<rect x="64" y="245" width="34" height="120" fill="#f9fafb" stroke="#d1d5db"/>
+<text transform="translate(85.0,305.0) rotate(-90)" text-anchor="middle" font-size="12" font-weight="600" fill="#1f2937">HL-OMS</text>
+<line x1="64" y1="365" x2="1898" y2="365" stroke="#d1d5db"/>
+<rect x="64" y="365" width="34" height="120" fill="#f9fafb" stroke="#d1d5db"/>
+<text transform="translate(85.0,425.0) rotate(-90)" text-anchor="middle" font-size="12" font-weight="600" fill="#1f2937">Phục vụ</text>
+<polyline points="186,90 265,90" fill="none" stroke="#1f2937" stroke-width="1.2" marker-end="url(#ar)"/>
+<polyline points="381,90 415,90" fill="none" stroke="#1f2937" stroke-width="1.2" marker-end="url(#ar)"/>
+<polyline points="531,90 547,90 547,305 565,305" fill="none" stroke="#1f2937" stroke-width="1.2" marker-end="url(#ar)"/>
+<polyline points="681,305 750,305" fill="none" stroke="#1f2937" stroke-width="1.2" marker-end="url(#ar)"/>
+<polyline points="773,282 773,185 865,185" fill="none" stroke="#1f2937" stroke-width="1.2" marker-end="url(#ar)"/>
+<text x="779" y="234" font-size="10.5" fill="#6b7280" text-anchor="start">Có</text>
+<polyline points="796,305 1015,305" fill="none" stroke="#1f2937" stroke-width="1.2" marker-end="url(#ar)"/>
+<text x="802" y="299" font-size="10.5" fill="#6b7280" text-anchor="start">Không</text>
+<polyline points="981,185 997,185 997,305 1015,305" fill="none" stroke="#1f2937" stroke-width="1.2" marker-end="url(#ar)"/>
+<polyline points="1131,305 1147,305 1147,90 1165,90" fill="none" stroke="#1f2937" stroke-width="1.2" marker-end="url(#ar)"/>
+<polyline points="1281,90 1297,90 1297,305 1315,305" fill="none" stroke="#1f2937" stroke-width="1.2" marker-end="url(#ar)"/>
+<polyline points="1431,305 1465,305" fill="none" stroke="#1f2937" stroke-width="1.2" marker-end="url(#ar)"/>
+<polyline points="1581,305 1597,305 1597,425 1615,425" fill="none" stroke="#1f2937" stroke-width="1.2" marker-end="url(#ar)"/>
+<polyline points="1731,425 1810,425" fill="none" stroke="#1f2937" stroke-width="1.2" marker-end="url(#ar)"/>
+<circle cx="173.0" cy="90.0" r="11" fill="#1f2937"/>
+<rect x="265" y="59" width="116" height="62" rx="14" fill="#fff" stroke="#1f2937" stroke-width="1.3"/>
+<text x="323" y="87" text-anchor="middle" font-size="11" fill="#1f2937">Chọn trạm, xem</text>
+<text x="323" y="101" text-anchor="middle" font-size="11" fill="#1f2937">phiếu</text>
+<rect x="415" y="59" width="116" height="62" rx="14" fill="#fff" stroke="#1f2937" stroke-width="1.3"/>
+<text x="473" y="94" text-anchor="middle" font-size="11" fill="#1f2937">Chạm món Chờ nấu</text>
+<rect x="565" y="274" width="116" height="62" rx="14" fill="#fbeee8" stroke="#b4451f" stroke-width="1.3"/>
+<text x="623" y="302" text-anchor="middle" font-size="11" fill="#1f2937">Kiểm tra dị ứng</text>
+<text x="623" y="316" text-anchor="middle" font-size="11" fill="#1f2937">chưa xác nhận</text>
+<polygon points="773.0,282.0 796.0,305.0 773.0,328.0 750.0,305.0" fill="#fff" stroke="#1f2937" stroke-width="1.3"/>
+<text x="777" y="274" font-size="10.5" fill="#1f2937">Cần xác nhận?</text>
+<rect x="865" y="154" width="116" height="62" rx="14" fill="#fff" stroke="#1f2937" stroke-width="1.3"/>
+<text x="923" y="182" text-anchor="middle" font-size="11" fill="#1f2937">Đọc, bấm Đã đọc dị</text>
+<text x="923" y="196" text-anchor="middle" font-size="11" fill="#1f2937">ứng</text>
+<rect x="1015" y="274" width="116" height="62" rx="14" fill="#fbeee8" stroke="#b4451f" stroke-width="1.3"/>
+<text x="1073" y="302" text-anchor="middle" font-size="11" fill="#1f2937">Món → Đang nấu, ghi</text>
+<text x="1073" y="316" text-anchor="middle" font-size="11" fill="#1f2937">giờ</text>
+<rect x="1165" y="59" width="116" height="62" rx="14" fill="#fff" stroke="#1f2937" stroke-width="1.3"/>
+<text x="1223" y="87" text-anchor="middle" font-size="11" fill="#1f2937">Nấu xong, chạm Sẵn</text>
+<text x="1223" y="101" text-anchor="middle" font-size="11" fill="#1f2937">sàng</text>
+<rect x="1315" y="274" width="116" height="62" rx="14" fill="#fbeee8" stroke="#b4451f" stroke-width="1.3"/>
+<text x="1373" y="302" text-anchor="middle" font-size="11" fill="#1f2937">Món → Sẵn sàng, ghi</text>
+<text x="1373" y="316" text-anchor="middle" font-size="11" fill="#1f2937">giờ</text>
+<rect x="1465" y="274" width="116" height="62" rx="14" fill="#fbeee8" stroke="#b4451f" stroke-width="1.3"/>
+<text x="1523" y="302" text-anchor="middle" font-size="11" fill="#1f2937">Thông báo phục vụ</text>
+<text x="1523" y="316" text-anchor="middle" font-size="11" fill="#1f2937">phụ trách bàn</text>
+<rect x="1615" y="394" width="116" height="62" rx="14" fill="#fff" stroke="#1f2937" stroke-width="1.3"/>
+<text x="1673" y="429" text-anchor="middle" font-size="11" fill="#1f2937">Nhận thông báo</text>
+<circle cx="1823.0" cy="425.0" r="12" fill="#fff" stroke="#1f2937" stroke-width="1.6"/><circle cx="1823.0" cy="425.0" r="7" fill="#1f2937"/>
+</svg>

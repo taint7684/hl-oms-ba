@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1330" height="466" viewBox="0 0 1330 466" font-family="Segoe UI, Arial, sans-serif">
+<defs><marker id="op" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10" fill="none" stroke="#6b7280" stroke-width="1.5"/></marker></defs>
+<rect width="1330" height="466" fill="#fff"/>
+<text x="24" y="34" font-size="17" font-weight="700" fill="#1f2937">Use Case Diagram — Cấp 3: UC-01 Tạo đơn</text>
+<rect x="190" y="70" width="950" height="356" rx="6" fill="#f9fafb" stroke="#1f2937" stroke-width="1.3"/>
+<text x="665.0" y="92" text-anchor="middle" font-size="13" font-weight="700" fill="#1f2937">HL-OMS · Gọi món</text>
+<line x1="103" y1="230.0" x2="560.0" y2="199.0" stroke="#6b7280" stroke-width="1"/>
+<line x1="560" y1="199" x2="480" y2="199" stroke="#6b7280" stroke-dasharray="5 4" marker-end="url(#op)"/>
+<line x1="850" y1="199" x2="770" y2="199" stroke="#6b7280" stroke-dasharray="5 4" marker-end="url(#op)"/>
+<line x1="955" y1="298" x2="665" y2="228" stroke="#6b7280" stroke-dasharray="5 4" marker-end="url(#op)"/>
+<line x1="375" y1="228" x2="375" y2="298" stroke="#6b7280" stroke-dasharray="5 4" marker-end="url(#op)"/>
+<line x1="560" y1="327" x2="480" y2="327" stroke="#6b7280" stroke-dasharray="5 4" marker-end="url(#op)"/>
+<ellipse cx="375.0" cy="199.0" rx="105.0" ry="29.0" fill="#fff" stroke="#1f2937" stroke-width="1.2"/>
+<text x="375.0" y="181.0" text-anchor="middle" font-size="9.5" font-weight="700" fill="#b4451f">UC-01.1</text>
+<text x="375.0" y="201" text-anchor="middle" font-size="11.5" fill="#1f2937">Chọn món theo danh mục / tìm</text>
+<text x="375.0" y="215" text-anchor="middle" font-size="11.5" fill="#1f2937">kiếm</text>
+<ellipse cx="665.0" cy="199.0" rx="105.0" ry="29.0" fill="#fff" stroke="#1f2937" stroke-width="1.2"/>
+<text x="665.0" y="188.0" text-anchor="middle" font-size="9.5" font-weight="700" fill="#b4451f">UC-01</text>
+<text x="665.0" y="208" text-anchor="middle" font-size="11.5" fill="#1f2937">Tạo đơn</text>
+<ellipse cx="955.0" cy="199.0" rx="105.0" ry="29.0" fill="#fff" stroke="#1f2937" stroke-width="1.2"/>
+<text x="955.0" y="188.0" text-anchor="middle" font-size="9.5" font-weight="700" fill="#b4451f">UC-01.2</text>
+<text x="955.0" y="208" text-anchor="middle" font-size="11.5" fill="#1f2937">Chọn tùy chọn, ghi chú</text>
+<ellipse cx="375.0" cy="327.0" rx="105.0" ry="29.0" fill="#fff" stroke="#1f2937" stroke-width="1.2"/>
+<text x="375.0" y="316.0" text-anchor="middle" font-size="9.5" font-weight="700" fill="#b4451f">UC-01.4</text>
+<text x="375.0" y="336" text-anchor="middle" font-size="11.5" fill="#1f2937">Kiểm tra còn món</text>
+<ellipse cx="665.0" cy="327.0" rx="105.0" ry="29.0" fill="#fff" stroke="#1f2937" stroke-width="1.2"/>
+<text x="665.0" y="316.0" text-anchor="middle" font-size="9.5" font-weight="700" fill="#b4451f">UC-01.5</text>
+<text x="665.0" y="336" text-anchor="middle" font-size="11.5" fill="#1f2937">Báo món hết, gợi ý thay thế</text>
+<ellipse cx="955.0" cy="327.0" rx="105.0" ry="29.0" fill="#fff" stroke="#1f2937" stroke-width="1.2"/>
+<text x="955.0" y="316.0" text-anchor="middle" font-size="9.5" font-weight="700" fill="#b4451f">UC-01.3</text>
+<text x="955.0" y="336" text-anchor="middle" font-size="11.5" fill="#1f2937">Khai báo chất gây dị ứng</text>
+<text x="520" y="194" text-anchor="middle" font-size="10" fill="#6b7280" paint-order="stroke" stroke="#f9fafb" stroke-width="4">«include»</text>
+<text x="810" y="194" text-anchor="middle" font-size="10" fill="#6b7280" paint-order="stroke" stroke="#f9fafb" stroke-width="4">«extend»</text>
+<text x="810" y="258" text-anchor="middle" font-size="10" fill="#6b7280" paint-order="stroke" stroke="#f9fafb" stroke-width="4">«extend»</text>
+<text x="375" y="258" text-anchor="middle" font-size="10" fill="#6b7280" paint-order="stroke" stroke="#f9fafb" stroke-width="4">«include»</text>
+<text x="520" y="322" text-anchor="middle" font-size="10" fill="#6b7280" paint-order="stroke" stroke="#f9fafb" stroke-width="4">«extend»</text>
+<g stroke="#1f2937" stroke-width="1.6" fill="none"><circle cx="85" cy="208.0" r="9"/><line x1="85" y1="217.0" x2="85" y2="244.0"/><line x1="69" y1="226.0" x2="101" y2="226.0"/><line x1="85" y1="244.0" x2="72" y2="264.0"/><line x1="85" y1="244.0" x2="98" y2="264.0"/></g><text x="85" y="282.0" text-anchor="middle" font-size="12" font-weight="600" fill="#1f2937">Phục vụ</text>
+</svg>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" id="Defs_BP4_ToBe" targetNamespace="https://github.com/taint7684/hl-oms-ba">
+  <bpmn:collaboration id="Col_BP4_ToBe">
+    <bpmn:participant id="Pool_BP4_ToBe" name="BP4 To-Be · Hết món, đổi món, hủy món" processRef="BP4_ToBe"/>
+  </bpmn:collaboration>
+  <bpmn:process id="BP4_ToBe" isExecutable="false">
+    <bpmn:laneSet id="LS_BP4_ToBe">
+      <bpmn:lane id="Lane_BP4_ToBe_CH" name="Bếp trưởng">
+        <bpmn:flowNodeRef>s</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ch1</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id="Lane_BP4_ToBe_S" name="HL-OMS">
+        <bpmn:flowNodeRef>s1</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>g1</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>e1</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>s2</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>g3</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>s3</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>s4</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>e3</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id="Lane_BP4_ToBe_W" name="Phục vụ">
+        <bpmn:flowNodeRef>w1</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>g2</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>w2</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>e2</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>w3</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id="Lane_BP4_ToBe_M" name="Quản lý">
+        <bpmn:flowNodeRef>m1</bpmn:flowNodeRef>
+      </bpmn:lane>
+    </bpmn:laneSet>
+    <bpmn:startEvent id="s" name="Nguyên liệu sắp hết"><bpmn:outgoing>F_0</bpmn:outgoing></bpmn:startEvent>
+    <bpmn:userTask id="ch1" name="Đặt số phần còn lại hoặc bấm Hết"><bpmn:incoming>F_0</bpmn:incoming><bpmn:outgoing>F_1</bpmn:outgoing></bpmn:userTask>
+    <bpmn:serviceTask id="s1" name="Chặn món trên mọi app ≤ 2 giây (BR-01)"><bpmn:incoming>F_1</bpmn:incoming><bpmn:outgoing>F_2</bpmn:outgoing></bpmn:serviceTask>
+    <bpmn:exclusiveGateway id="g1" name="Có món đang chờ bị ảnh hưởng?"><bpmn:incoming>F_2</bpmn:incoming><bpmn:outgoing>F_3</bpmn:outgoing><bpmn:outgoing>F_4</bpmn:outgoing></bpmn:exclusiveGateway>
+    <bpmn:endEvent id="e1" name="Kết thúc"><bpmn:incoming>F_3</bpmn:incoming></bpmn:endEvent>
+    <bpmn:serviceTask id="s2" name="Báo phục vụ bàn liên quan"><bpmn:incoming>F_4</bpmn:incoming><bpmn:outgoing>F_5</bpmn:outgoing></bpmn:serviceTask>
+    <bpmn:userTask id="w1" name="Báo khách, hỏi đổi món hay hủy"><bpmn:incoming>F_5</bpmn:incoming><bpmn:outgoing>F_6</bpmn:outgoing></bpmn:userTask>
+    <bpmn:exclusiveGateway id="g2" name="Khách chọn?"><bpmn:incoming>F_6</bpmn:incoming><bpmn:outgoing>F_7</bpmn:outgoing><bpmn:outgoing>F_8</bpmn:outgoing></bpmn:exclusiveGateway>
+    <bpmn:userTask id="w2" name="Hủy món cũ, gọi món thay thế"><bpmn:incoming>F_7</bpmn:incoming><bpmn:outgoing>F_9</bpmn:outgoing></bpmn:userTask>
+    <bpmn:endEvent id="e2" name="Đã đổi món"><bpmn:incoming>F_9</bpmn:incoming></bpmn:endEvent>
+    <bpmn:userTask id="w3" name="Gửi yêu cầu hủy, chọn lý do"><bpmn:incoming>F_8</bpmn:incoming><bpmn:outgoing>F_10</bpmn:outgoing></bpmn:userTask>
+    <bpmn:exclusiveGateway id="g3" name="Món đã bắt đầu nấu?"><bpmn:incoming>F_10</bpmn:incoming><bpmn:outgoing>F_11</bpmn:outgoing><bpmn:outgoing>F_12</bpmn:outgoing></bpmn:exclusiveGateway>
+    <bpmn:serviceTask id="s3" name="Hủy ngay, trả số phần (BR-07)"><bpmn:incoming>F_11</bpmn:incoming><bpmn:outgoing>F_13</bpmn:outgoing></bpmn:serviceTask>
+    <bpmn:userTask id="m1" name="Duyệt hoặc từ chối (BR-05)"><bpmn:incoming>F_12</bpmn:incoming><bpmn:outgoing>F_14</bpmn:outgoing></bpmn:userTask>
+    <bpmn:serviceTask id="s4" name="Cập nhật món, ghi nhật ký (BR-19)"><bpmn:incoming>F_13</bpmn:incoming><bpmn:incoming>F_14</bpmn:incoming><bpmn:outgoing>F_15</bpmn:outgoing></bpmn:serviceTask>
+    <bpmn:endEvent id="e3" name="Đã xử lý"><bpmn:incoming>F_15</bpmn:incoming></bpmn:endEvent>
+    <bpmn:sequenceFlow id="F_0" sourceRef="s" targetRef="ch1"/>
+    <bpmn:sequenceFlow id="F_1" sourceRef="ch1" targetRef="s1"/>
+    <bpmn:sequenceFlow id="F_2" sourceRef="s1" targetRef="g1"/>
+    <bpmn:sequenceFlow id="F_3" sourceRef="g1" targetRef="e1" name="Không"/>
+    <bpmn:sequenceFlow id="F_4" sourceRef="g1" targetRef="s2" name="Có"/>
+    <bpmn:sequenceFlow id="F_5" sourceRef="s2" targetRef="w1"/>
+    <bpmn:sequenceFlow id="F_6" sourceRef="w1" targetRef="g2"/>
+    <bpmn:sequenceFlow id="F_7" sourceRef="g2" targetRef="w2" name="Đổi món"/>
+    <bpmn:sequenceFlow id="F_8" sourceRef="g2" targetRef="w3" name="Hủy"/>
+    <bpmn:sequenceFlow id="F_9" sourceRef="w2" targetRef="e2"/>
+    <bpmn:sequenceFlow id="F_10" sourceRef="w3" targetRef="g3"/>
+    <bpmn:sequenceFlow id="F_11" sourceRef="g3" targetRef="s3" name="Chưa"/>
+    <bpmn:sequenceFlow id="F_12" sourceRef="g3" targetRef="m1" name="Rồi"/>
+    <bpmn:sequenceFlow id="F_13" sourceRef="s3" targetRef="s4"/>
+    <bpmn:sequenceFlow id="F_14" sourceRef="m1" targetRef="s4"/>
+    <bpmn:sequenceFlow id="F_15" sourceRef="s4" targetRef="e3"/>
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="Dia_BP4_ToBe">
+    <bpmndi:BPMNPlane id="Pl_BP4_ToBe" bpmnElement="Col_BP4_ToBe">
+      <bpmndi:BPMNShape id="S_Pool_BP4_ToBe" bpmnElement="Pool_BP4_ToBe" isHorizontal="true"><dc:Bounds x="30" y="30" width="2018" height="670"/></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_Lane_BP4_ToBe_CH" bpmnElement="Lane_BP4_ToBe_CH" isHorizontal="true"><dc:Bounds x="64" y="30" width="1984" height="120"/></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_Lane_BP4_ToBe_S" bpmnElement="Lane_BP4_ToBe_S" isHorizontal="true"><dc:Bounds x="64" y="150" width="1984" height="215"/></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_Lane_BP4_ToBe_W" bpmnElement="Lane_BP4_ToBe_W" isHorizontal="true"><dc:Bounds x="64" y="365" width="1984" height="215"/></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_Lane_BP4_ToBe_M" bpmnElement="Lane_BP4_ToBe_M" isHorizontal="true"><dc:Bounds x="64" y="580" width="1984" height="120"/></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_s" bpmnElement="s"><dc:Bounds x="155" y="72" width="36" height="36"/></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_ch1" bpmnElement="ch1"><dc:Bounds x="265" y="59" width="116" height="62"/></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_s1" bpmnElement="s1"><dc:Bounds x="415" y="179" width="116" height="62"/></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_g1" bpmnElement="g1" isMarkerVisible="true"><dc:Bounds x="600" y="187" width="46" height="46"/></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_e1" bpmnElement="e1"><dc:Bounds x="755" y="192" width="36" height="36"/></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_s2" bpmnElement="s2"><dc:Bounds x="715" y="274" width="116" height="62"/></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_w1" bpmnElement="w1"><dc:Bounds x="865" y="394" width="116" height="62"/></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_g2" bpmnElement="g2" isMarkerVisible="true"><dc:Bounds x="1050" y="402" width="46" height="46"/></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_w2" bpmnElement="w2"><dc:Bounds x="1165" y="394" width="116" height="62"/></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_e2" bpmnElement="e2"><dc:Bounds x="1355" y="407" width="36" height="36"/></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_w3" bpmnElement="w3"><dc:Bounds x="1165" y="489" width="116" height="62"/></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_g3" bpmnElement="g3" isMarkerVisible="true"><dc:Bounds x="1500" y="282" width="46" height="46"/></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_s3" bpmnElement="s3"><dc:Bounds x="1615" y="274" width="116" height="62"/></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_m1" bpmnElement="m1"><dc:Bounds x="1615" y="609" width="116" height="62"/></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_s4" bpmnElement="s4"><dc:Bounds x="1765" y="274" width="116" height="62"/></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_e3" bpmnElement="e3"><dc:Bounds x="1955" y="287" width="36" height="36"/></bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="E_0" bpmnElement="F_0"><di:waypoint x="191" y="90"/><di:waypoint x="265" y="90"/></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="E_1" bpmnElement="F_1"><di:waypoint x="381" y="90"/><di:waypoint x="397" y="90"/><di:waypoint x="397" y="210"/><di:waypoint x="415" y="210"/></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="E_2" bpmnElement="F_2"><di:waypoint x="531" y="210"/><di:waypoint x="600" y="210"/></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="E_3" bpmnElement="F_3"><di:waypoint x="646" y="210"/><di:waypoint x="755" y="210"/></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="E_4" bpmnElement="F_4"><di:waypoint x="623" y="233"/><di:waypoint x="623" y="305"/><di:waypoint x="715" y="305"/></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="E_5" bpmnElement="F_5"><di:waypoint x="831" y="305"/><di:waypoint x="847" y="305"/><di:waypoint x="847" y="425"/><di:waypoint x="865" y="425"/></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="E_6" bpmnElement="F_6"><di:waypoint x="981" y="425"/><di:waypoint x="1050" y="425"/></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="E_7" bpmnElement="F_7"><di:waypoint x="1096" y="425"/><di:waypoint x="1165" y="425"/></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="E_8" bpmnElement="F_8"><di:waypoint x="1073" y="448"/><di:waypoint x="1073" y="520"/><di:waypoint x="1165" y="520"/></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="E_9" bpmnElement="F_9"><di:waypoint x="1281" y="425"/><di:waypoint x="1355" y="425"/></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="E_10" bpmnElement="F_10"><di:waypoint x="1281" y="520"/><di:waypoint x="1482" y="520"/><di:waypoint x="1482" y="305"/><di:waypoint x="1500" y="305"/></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="E_11" bpmnElement="F_11"><di:waypoint x="1546" y="305"/><di:waypoint x="1615" y="305"/></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="E_12" bpmnElement="F_12"><di:waypoint x="1523" y="328"/><di:waypoint x="1523" y="640"/><di:waypoint x="1615" y="640"/></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="E_13" bpmnElement="F_13"><di:waypoint x="1731" y="305"/><di:waypoint x="1765" y="305"/></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="E_14" bpmnElement="F_14"><di:waypoint x="1731" y="640"/><di:waypoint x="1747" y="640"/><di:waypoint x="1747" y="305"/><di:waypoint x="1765" y="305"/></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="E_15" bpmnElement="F_15"><di:waypoint x="1881" y="305"/><di:waypoint x="1955" y="305"/></bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

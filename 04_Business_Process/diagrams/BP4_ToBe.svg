@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2078" height="730" viewBox="0 0 2078 730" font-family="Segoe UI, Arial, sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1f2937"/></marker></defs>
+<rect width="2078" height="730" fill="#fff"/>
+<rect x="30" y="30" width="2018" height="670" fill="none" stroke="#1f2937" stroke-width="1.5"/>
+<line x1="64" y1="30" x2="64" y2="700" stroke="#1f2937" stroke-width="1.5"/>
+<text transform="translate(52.0,365.0) rotate(-90)" text-anchor="middle" font-size="13" font-weight="700" fill="#1f2937">BP4 To-Be · Hết món, đổi món, hủy món</text>
+<rect x="64" y="30" width="34" height="120" fill="#f9fafb" stroke="#d1d5db"/>
+<text transform="translate(85.0,90.0) rotate(-90)" text-anchor="middle" font-size="12" font-weight="600" fill="#1f2937">Bếp trưởng</text>
+<line x1="64" y1="150" x2="2048" y2="150" stroke="#d1d5db"/>
+<rect x="64" y="150" width="34" height="215" fill="#f9fafb" stroke="#d1d5db"/>
+<text transform="translate(85.0,257.5) rotate(-90)" text-anchor="middle" font-size="12" font-weight="600" fill="#1f2937">HL-OMS</text>
+<line x1="64" y1="365" x2="2048" y2="365" stroke="#d1d5db"/>
+<rect x="64" y="365" width="34" height="215" fill="#f9fafb" stroke="#d1d5db"/>
+<text transform="translate(85.0,472.5) rotate(-90)" text-anchor="middle" font-size="12" font-weight="600" fill="#1f2937">Phục vụ</text>
+<line x1="64" y1="580" x2="2048" y2="580" stroke="#d1d5db"/>
+<rect x="64" y="580" width="34" height="120" fill="#f9fafb" stroke="#d1d5db"/>
+<text transform="translate(85.0,640.0) rotate(-90)" text-anchor="middle" font-size="12" font-weight="600" fill="#1f2937">Quản lý</text>
+<polyline points="191,90 265,90" fill="none" stroke="#1f2937" stroke-width="1.2" marker-end="url(#ar)"/>
+<polyline points="381,90 397,90 397,210 415,210" fill="none" stroke="#1f2937" stroke-width="1.2" marker-end="url(#ar)"/>
+<polyline points="531,210 600,210" fill="none" stroke="#1f2937" stroke-width="1.2" marker-end="url(#ar)"/>
+<polyline points="646,210 755,210" fill="none" stroke="#1f2937" stroke-width="1.2" marker-end="url(#ar)"/>
+<text x="652" y="204" font-size="10.5" fill="#6b7280" text-anchor="start">Không</text>
+<polyline points="623,233 623,305 715,305" fill="none" stroke="#1f2937" stroke-width="1.2" marker-end="url(#ar)"/>
+<text x="629" y="269" font-size="10.5" fill="#6b7280" text-anchor="start">Có</text>
+<polyline points="831,305 847,305 847,425 865,425" fill="none" stroke="#1f2937" stroke-width="1.2" marker-end="url(#ar)"/>
+<polyline points="981,425 1050,425" fill="none" stroke="#1f2937" stroke-width="1.2" marker-end="url(#ar)"/>
+<polyline points="1096,425 1165,425" fill="none" stroke="#1f2937" stroke-width="1.2" marker-end="url(#ar)"/>
+<text x="1102" y="419" font-size="10.5" fill="#6b7280" text-anchor="start">Đổi món</text>
+<polyline points="1073,448 1073,520 1165,520" fill="none" stroke="#1f2937" stroke-width="1.2" marker-end="url(#ar)"/>
+<text x="1079" y="484" font-size="10.5" fill="#6b7280" text-anchor="start">Hủy</text>
+<polyline points="1281,425 1355,425" fill="none" stroke="#1f2937" stroke-width="1.2" marker-end="url(#ar)"/>
+<polyline points="1281,520 1482,520 1482,305 1500,305" fill="none" stroke="#1f2937" stroke-width="1.2" marker-end="url(#ar)"/>
+<polyline points="1546,305 1615,305" fill="none" stroke="#1f2937" stroke-width="1.2" marker-end="url(#ar)"/>
+<text x="1552" y="299" font-size="10.5" fill="#6b7280" text-anchor="start">Chưa</text>
+<polyline points="1523,328 1523,640 1615,640" fill="none" stroke="#1f2937" stroke-width="1.2" marker-end="url(#ar)"/>
+<text x="1529" y="484" font-size="10.5" fill="#6b7280" text-anchor="start">Rồi</text>
+<polyline points="1731,305 1765,305" fill="none" stroke="#1f2937" stroke-width="1.2" marker-end="url(#ar)"/>
+<polyline points="1731,640 1747,640 1747,305 1765,305" fill="none" stroke="#1f2937" stroke-width="1.2" marker-end="url(#ar)"/>
+<polyline points="1881,305 1955,305" fill="none" stroke="#1f2937" stroke-width="1.2" marker-end="url(#ar)"/>
+<circle cx="173.0" cy="90.0" r="18.0" fill="#fff" stroke="#1f2937" stroke-width="1.4"/>
+<text x="173.0" y="122.0" text-anchor="middle" font-size="10.5" fill="#1f2937">Nguyên liệu sắp</text>
+<text x="173.0" y="134.0" text-anchor="middle" font-size="10.5" fill="#1f2937">hết</text>
+<rect x="265" y="59" width="116" height="62" rx="9" fill="#fff" stroke="#1f2937" stroke-width="1.3"/>
+<text x="323" y="87" text-anchor="middle" font-size="11" fill="#1f2937">Đặt số phần còn lại</text>
+<text x="323" y="101" text-anchor="middle" font-size="11" fill="#1f2937">hoặc bấm Hết</text>
+<rect x="415" y="179" width="116" height="62" rx="9" fill="#fbeee8" stroke="#b4451f" stroke-width="1.3"/>
+<text x="473" y="204" text-anchor="middle" font-size="11" fill="#1f2937">Chặn món trên mọi</text>
+<text x="473" y="218" text-anchor="middle" font-size="11" fill="#1f2937">app ≤ 2 giây</text>
+<text x="473" y="232" text-anchor="middle" font-size="11" fill="#1f2937">(BR-01)</text>
+<circle cx="426" cy="190" r="5.5" fill="none" stroke="#b4451f" stroke-width="2.2" stroke-dasharray="2.2 1.6"/><circle cx="426" cy="190" r="2" fill="#b4451f"/>
+<polygon points="623.0,187.0 646.0,210.0 623.0,233.0 600.0,210.0" fill="#fff" stroke="#1f2937" stroke-width="1.3"/>
+<path d="M615.0,202.0 L631.0,218.0 M631.0,202.0 L615.0,218.0" stroke="#1f2937" stroke-width="2.4"/>
+<text x="627" y="167" text-anchor="start" font-size="10.5" fill="#1f2937">Có món đang chờ bị</text>
+<text x="627" y="179" text-anchor="start" font-size="10.5" fill="#1f2937">ảnh hưởng?</text>
+<circle cx="773.0" cy="210.0" r="18.0" fill="#fff" stroke="#1f2937" stroke-width="3.2"/>
+<text x="773.0" y="242.0" text-anchor="middle" font-size="10.5" fill="#1f2937">Kết thúc</text>
+<rect x="715" y="274" width="116" height="62" rx="9" fill="#fbeee8" stroke="#b4451f" stroke-width="1.3"/>
+<text x="773" y="306" text-anchor="middle" font-size="11" fill="#1f2937">Báo phục vụ bàn</text>
+<text x="773" y="320" text-anchor="middle" font-size="11" fill="#1f2937">liên quan</text>
+<circle cx="726" cy="285" r="5.5" fill="none" stroke="#b4451f" stroke-width="2.2" stroke-dasharray="2.2 1.6"/><circle cx="726" cy="285" r="2" fill="#b4451f"/>
+<rect x="865" y="394" width="116" height="62" rx="9" fill="#fff" stroke="#1f2937" stroke-width="1.3"/>
+<text x="923" y="422" text-anchor="middle" font-size="11" fill="#1f2937">Báo khách, hỏi đổi</text>
+<text x="923" y="436" text-anchor="middle" font-size="11" fill="#1f2937">món hay hủy</text>
+<polygon points="1073.0,402.0 1096.0,425.0 1073.0,448.0 1050.0,425.0" fill="#fff" stroke="#1f2937" stroke-width="1.3"/>
+<path d="M1065.0,417.0 L1081.0,433.0 M1081.0,417.0 L1065.0,433.0" stroke="#1f2937" stroke-width="2.4"/>
+<text x="1077" y="394" text-anchor="start" font-size="10.5" fill="#1f2937">Khách chọn?</text>
+<rect x="1165" y="394" width="116" height="62" rx="9" fill="#fff" stroke="#1f2937" stroke-width="1.3"/>
+<text x="1223" y="422" text-anchor="middle" font-size="11" fill="#1f2937">Hủy món cũ, gọi món</text>
+<text x="1223" y="436" text-anchor="middle" font-size="11" fill="#1f2937">thay thế</text>
+<circle cx="1373.0" cy="425.0" r="18.0" fill="#fff" stroke="#1f2937" stroke-width="3.2"/>
+<text x="1373.0" y="457.0" text-anchor="middle" font-size="10.5" fill="#1f2937">Đã đổi món</text>
+<rect x="1165" y="489" width="116" height="62" rx="9" fill="#fff" stroke="#1f2937" stroke-width="1.3"/>
+<text x="1223" y="517" text-anchor="middle" font-size="11" fill="#1f2937">Gửi yêu cầu hủy,</text>
+<text x="1223" y="531" text-anchor="middle" font-size="11" fill="#1f2937">chọn lý do</text>
+<polygon points="1523.0,282.0 1546.0,305.0 1523.0,328.0 1500.0,305.0" fill="#fff" stroke="#1f2937" stroke-width="1.3"/>
+<path d="M1515.0,297.0 L1531.0,313.0 M1531.0,297.0 L1515.0,313.0" stroke="#1f2937" stroke-width="2.4"/>
+<text x="1527" y="262" text-anchor="start" font-size="10.5" fill="#1f2937">Món đã bắt đầu</text>
+<text x="1527" y="274" text-anchor="start" font-size="10.5" fill="#1f2937">nấu?</text>
+<rect x="1615" y="274" width="116" height="62" rx="9" fill="#fbeee8" stroke="#b4451f" stroke-width="1.3"/>
+<text x="1673" y="306" text-anchor="middle" font-size="11" fill="#1f2937">Hủy ngay, trả số</text>
+<text x="1673" y="320" text-anchor="middle" font-size="11" fill="#1f2937">phần (BR-07)</text>
+<circle cx="1626" cy="285" r="5.5" fill="none" stroke="#b4451f" stroke-width="2.2" stroke-dasharray="2.2 1.6"/><circle cx="1626" cy="285" r="2" fill="#b4451f"/>
+<rect x="1615" y="609" width="116" height="62" rx="9" fill="#fff" stroke="#1f2937" stroke-width="1.3"/>
+<text x="1673" y="637" text-anchor="middle" font-size="11" fill="#1f2937">Duyệt hoặc từ chối</text>
+<text x="1673" y="651" text-anchor="middle" font-size="11" fill="#1f2937">(BR-05)</text>
+<rect x="1765" y="274" width="116" height="62" rx="9" fill="#fbeee8" stroke="#b4451f" stroke-width="1.3"/>
+<text x="1823" y="306" text-anchor="middle" font-size="11" fill="#1f2937">Cập nhật món, ghi</text>
+<text x="1823" y="320" text-anchor="middle" font-size="11" fill="#1f2937">nhật ký (BR-19)</text>
+<circle cx="1776" cy="285" r="5.5" fill="none" stroke="#b4451f" stroke-width="2.2" stroke-dasharray="2.2 1.6"/><circle cx="1776" cy="285" r="2" fill="#b4451f"/>
+<circle cx="1973.0" cy="305.0" r="18.0" fill="#fff" stroke="#1f2937" stroke-width="3.2"/>
+<text x="1973.0" y="337.0" text-anchor="middle" font-size="10.5" fill="#1f2937">Đã xử lý</text>
+</svg>

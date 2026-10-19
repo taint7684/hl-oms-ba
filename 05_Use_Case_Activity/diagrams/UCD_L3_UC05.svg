@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1330" height="594" viewBox="0 0 1330 594" font-family="Segoe UI, Arial, sans-serif">
+<defs><marker id="op" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10" fill="none" stroke="#6b7280" stroke-width="1.5"/></marker></defs>
+<rect width="1330" height="594" fill="#fff"/>
+<text x="24" y="34" font-size="17" font-weight="700" fill="#1f2937">Use Case Diagram — Cấp 3: UC-05 Thanh toán</text>
+<rect x="190" y="70" width="950" height="484" rx="6" fill="#f9fafb" stroke="#1f2937" stroke-width="1.3"/>
+<text x="665.0" y="92" text-anchor="middle" font-size="13" font-weight="700" fill="#1f2937">HL-OMS · Thanh toán</text>
+<line x1="103" y1="294.0" x2="560.0" y2="199.0" stroke="#6b7280" stroke-width="1"/>
+<line x1="1227" y1="294.0" x2="1060.0" y2="327.0" stroke="#6b7280" stroke-width="1"/>
+<line x1="560" y1="199" x2="480" y2="199" stroke="#6b7280" stroke-dasharray="5 4" marker-end="url(#op)"/>
+<line x1="665" y1="228" x2="375" y2="298" stroke="#6b7280" stroke-dasharray="5 4" marker-end="url(#op)"/>
+<line x1="850" y1="199" x2="770" y2="199" stroke="#6b7280" stroke-dasharray="5 4" marker-end="url(#op)"/>
+<line x1="665" y1="298" x2="665" y2="228" stroke="#6b7280" stroke-dasharray="5 4" marker-end="url(#op)"/>
+<line x1="955" y1="298" x2="955" y2="228" stroke="#6b7280" stroke-dasharray="5 4" marker-end="url(#op)"/>
+<line x1="375" y1="426" x2="375" y2="356" stroke="#6b7280" stroke-dasharray="5 4" marker-end="url(#op)"/>
+<ellipse cx="375.0" cy="199.0" rx="105.0" ry="29.0" fill="#fff" stroke="#1f2937" stroke-width="1.2"/>
+<text x="375.0" y="188.0" text-anchor="middle" font-size="9.5" font-weight="700" fill="#b4451f">UC-05.1</text>
+<text x="375.0" y="208" text-anchor="middle" font-size="11.5" fill="#1f2937">Tính bill (GST, phụ thu)</text>
+<ellipse cx="665.0" cy="199.0" rx="105.0" ry="29.0" fill="#fff" stroke="#1f2937" stroke-width="1.2"/>
+<text x="665.0" y="188.0" text-anchor="middle" font-size="9.5" font-weight="700" fill="#b4451f">UC-05</text>
+<text x="665.0" y="208" text-anchor="middle" font-size="11.5" fill="#1f2937">Thanh toán</text>
+<ellipse cx="955.0" cy="199.0" rx="105.0" ry="29.0" fill="#fff" stroke="#1f2937" stroke-width="1.2"/>
+<text x="955.0" y="188.0" text-anchor="middle" font-size="9.5" font-weight="700" fill="#b4451f">UC-05.3</text>
+<text x="955.0" y="208" text-anchor="middle" font-size="11.5" fill="#1f2937">Áp giảm giá</text>
+<ellipse cx="375.0" cy="327.0" rx="105.0" ry="29.0" fill="#fff" stroke="#1f2937" stroke-width="1.2"/>
+<text x="375.0" y="309.0" text-anchor="middle" font-size="9.5" font-weight="700" fill="#b4451f">UC-05.2</text>
+<text x="375.0" y="329" text-anchor="middle" font-size="11.5" fill="#1f2937">Ghi nhận phương thức, số</text>
+<text x="375.0" y="343" text-anchor="middle" font-size="11.5" fill="#1f2937">tiền</text>
+<ellipse cx="665.0" cy="327.0" rx="105.0" ry="29.0" fill="#fff" stroke="#1f2937" stroke-width="1.2"/>
+<text x="665.0" y="316.0" text-anchor="middle" font-size="9.5" font-weight="700" fill="#b4451f">UC-06</text>
+<text x="665.0" y="336" text-anchor="middle" font-size="11.5" fill="#1f2937">Tách bill</text>
+<ellipse cx="955.0" cy="327.0" rx="105.0" ry="29.0" fill="#fff" stroke="#1f2937" stroke-width="1.2"/>
+<text x="955.0" y="316.0" text-anchor="middle" font-size="9.5" font-weight="700" fill="#b4451f">UC-12</text>
+<text x="955.0" y="336" text-anchor="middle" font-size="11.5" fill="#1f2937">Duyệt giảm giá &gt; 10%</text>
+<ellipse cx="375.0" cy="455.0" rx="105.0" ry="29.0" fill="#fff" stroke="#1f2937" stroke-width="1.2"/>
+<text x="375.0" y="444.0" text-anchor="middle" font-size="9.5" font-weight="700" fill="#b4451f">UC-05.4</text>
+<text x="375.0" y="464" text-anchor="middle" font-size="11.5" fill="#1f2937">In hóa đơn / tax invoice</text>
+<text x="520" y="194" text-anchor="middle" font-size="10" fill="#6b7280" paint-order="stroke" stroke="#f9fafb" stroke-width="4">«include»</text>
+<text x="520" y="258" text-anchor="middle" font-size="10" fill="#6b7280" paint-order="stroke" stroke="#f9fafb" stroke-width="4">«include»</text>
+<text x="810" y="194" text-anchor="middle" font-size="10" fill="#6b7280" paint-order="stroke" stroke="#f9fafb" stroke-width="4">«extend»</text>
+<text x="665" y="258" text-anchor="middle" font-size="10" fill="#6b7280" paint-order="stroke" stroke="#f9fafb" stroke-width="4">«extend»</text>
+<text x="955" y="258" text-anchor="middle" font-size="10" fill="#6b7280" paint-order="stroke" stroke="#f9fafb" stroke-width="4">«extend»</text>
+<text x="375" y="386" text-anchor="middle" font-size="10" fill="#6b7280" paint-order="stroke" stroke="#f9fafb" stroke-width="4">«extend»</text>
+<g stroke="#1f2937" stroke-width="1.6" fill="none"><circle cx="85" cy="272.0" r="9"/><line x1="85" y1="281.0" x2="85" y2="308.0"/><line x1="69" y1="290.0" x2="101" y2="290.0"/><line x1="85" y1="308.0" x2="72" y2="328.0"/><line x1="85" y1="308.0" x2="98" y2="328.0"/></g><text x="85" y="346.0" text-anchor="middle" font-size="12" font-weight="600" fill="#1f2937">Thu ngân</text>
+<g stroke="#1f2937" stroke-width="1.6" fill="none"><circle cx="1245" cy="272.0" r="9"/><line x1="1245" y1="281.0" x2="1245" y2="308.0"/><line x1="1229" y1="290.0" x2="1261" y2="290.0"/><line x1="1245" y1="308.0" x2="1232" y2="328.0"/><line x1="1245" y1="308.0" x2="1258" y2="328.0"/></g><text x="1245" y="346.0" text-anchor="middle" font-size="12" font-weight="600" fill="#1f2937">Quản lý</text>
+</svg>
