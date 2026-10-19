@@ -1,0 +1,20 @@
+stateDiagram-v2
+  direction LR
+  [*] --> Open : Đơn có món đầu tiên
+  Open --> PendingApproval : Giảm giá > 10% hoặc miễn phí món (BR-11)
+  PendingApproval --> Open : Quản lý duyệt / từ chối
+  Open --> Printed : In bill tạm [BR-12]
+  Printed --> Open : Gọi thêm / sửa giảm giá
+  Printed --> Split : Tách bill (BR-14)
+  Split --> Printed : Hủy tách [chưa phần nào trả]
+  Printed --> PartiallyPaid : Thu một phần
+  Split --> PartiallyPaid : Một phần đã trả
+  PartiallyPaid --> Paid : Tổng đã thu = Tổng bill
+  Printed --> Paid : Thu đủ
+  Paid --> [*]
+  Open : Open (Đang mở)
+  PendingApproval : Pending Approval (Chờ duyệt)
+  Printed : Printed (Đã in)
+  Split : Split (Đã tách)
+  PartiallyPaid : Partially Paid (Trả một phần)
+  Paid : Paid (Đã thanh toán)

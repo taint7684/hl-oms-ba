@@ -1,0 +1,17 @@
+username,display_name,role,employment,status
+owner,Chủ nhà hàng,MANAGER,Full-time,Active
+linh.nguyen,Linh Nguyễn,MANAGER,Full-time,Active
+admin,Quản lý (Admin),ADMIN,Full-time,Active
+hung.tran,Hùng Trần,CHEF,Full-time,Active
+khoa.le,Khoa Lê,COOK,Full-time,Active
+mai.pham,Mai Phạm,COOK,Full-time,Active
+tuan.vo,Tuấn Võ,COOK,Part-time,Active
+an.do,An Đỗ,COOK,Part-time,Active
+thu.bui,Thư Bùi,CASHIER,Full-time,Active
+ngoc.ho,Ngọc Hồ,CASHIER,Part-time,Active
+minh.dang,Minh Đặng,WAITER,Full-time,Active
+vy.huynh,Vy Huỳnh,WAITER,Part-time,Active
+jack.wilson,Jack Wilson,WAITER,Part-time,Active
+bao.ngo,Bảo Ngô,WAITER,Part-time,Active
+emma.chen,Emma Chen,WAITER,Part-time,Active
+quan.ly,Quân Lý,WAITER,Full-time,Inactive

@@ -1,0 +1,16 @@
+stateDiagram-v2
+  direction LR
+  [*] --> Available : Tạo món
+  Available --> Limited : Bếp trưởng đặt số phần còn lại
+  Limited --> Limited : Gửi bếp trừ phần / hủy trả phần (BR-07)
+  Limited --> SoldOut : Số phần = 0
+  Available --> SoldOut : Bếp trưởng bấm Hết
+  Limited --> Available : Bỏ giới hạn
+  SoldOut --> Available : Mở bán lại / đầu ca
+  SoldOut --> Limited : Nhập số phần mới
+  Available --> Inactive : Quản lý ngừng bán
+  Inactive --> Available : Quản lý bán lại
+  Available : Available (Còn bán)
+  Limited : Limited (Còn n phần)
+  SoldOut : Sold Out (Hết)
+  Inactive : Inactive (Ngừng bán)

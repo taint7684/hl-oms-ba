@@ -2,7 +2,7 @@
 
 | Mục | Nội dung |
 |---|---|
-| Mục đích | Danh sách câu hỏi cho buổi họp 1 với BOM HL (bài tập "1st meeting") và theo dõi tới khi đóng |
+| Mục đích | Danh sách câu hỏi cho buổi họp 1 với BOM HL (bài tập "1st meeting": Q-001→Q-040) và các câu phát sinh sau đó, theo dõi tới khi đóng |
 | Thứ tự nhóm | (1) Nhu cầu chính → (2) Tiện ích/UX → (3) Nội dung sản phẩm → (4) Vận hành & nguồn lực → (5) Điều khoản thương mại → (6) Khác |
 | Ưu tiên | `H` hỏi bắt buộc ở họp 1 · `M` hỏi nếu còn thời gian · `L` gửi email sau họp |
 | Trạng thái | `Mở` · `Đóng` (có trả lời + nguồn) · `Chuyển` (chuyển sang buổi/kỹ thuật khác) |
@@ -81,6 +81,7 @@
 | Q-038 | Sau này có cần kết nối phần mềm kế toán (Xero, MYOB) không? | Supportability, V2 | OWN, ACC | Phỏng vấn | L | — | Đóng | Có ý định (Xero) — đưa vào V2; v1 xuất CSV doanh thu ngày | MOM-01 §3.6 |
 | Q-039 | Có kế hoạch mở thêm chi nhánh không? | Kiến trúc đa chi nhánh | OWN | Phỏng vấn | L | — | Đóng | Có thể trong 2 năm; v1 một chi nhánh, dữ liệu thiết kế để mở rộng | MOM-01 §3.6 |
 | Q-040 | Cho phép BA quan sát ca tối T6 và xem phiếu/hóa đơn cũ không? | Kỹ thuật quan sát + review tài liệu | MGR | — | H | — | Đóng | Đồng ý: quan sát 18:00–21:00 T6 06/11/2026; cung cấp 1 tuần phiếu giấy và sổ chốt ca | MOM-01 §4 |
+| Q-041 | Thứ Hai 26/04/2027 (sau Anzac Day) có là ngày lễ NSW để áp phụ thu không? | Dữ liệu ngày lễ (BR-10) | MGR | Review tài liệu (trang NSW Government) | M | — | Mở | Nguồn thứ cấp mâu thuẫn; hạn xác nhận 01/04/2027 | holidays.csv |
 
 ## 2. Tổng hợp
 
@@ -91,8 +92,8 @@
 | (3) Nội dung sản phẩm | 12 | 7 | 4 | 1 | 12 | 0 |
 | (4) Vận hành & nguồn lực | 6 | 2 | 4 | 0 | 6 | 0 |
 | (5) Thương mại | 5 | 3 | 2 | 0 | 5 | 0 |
-| (6) Khác | 3 | 1 | 0 | 2 | 3 | 0 |
-| **Tổng** | **40** | **25** | **12** | **3** | **40** | **0** |
+| (6) Khác | 4 | 1 | 1 | 2 | 3 | 1 |
+| **Tổng** | **41** | **25** | **13** | **3** | **40** | **1** |
 
 ## 3. Kỹ thuật elicitation đã dùng
 

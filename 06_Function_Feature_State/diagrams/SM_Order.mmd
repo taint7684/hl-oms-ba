@@ -1,0 +1,22 @@
+stateDiagram-v2
+  direction LR
+  [*] --> Draft : Mở bàn / tạo đơn mang về
+  Draft --> Submitted : Gửi bếp [≥ 1 món Mới] (BR-02)
+  Draft --> Cancelled : Hủy đơn
+  Submitted --> InProgress : Món đầu tiên chuyển Đang nấu
+  Submitted --> Cancelled : Hủy đơn [chưa món nào Đang nấu] (BR-20)
+  InProgress --> Served : Mọi món Đã phục vụ hoặc Đã hủy
+  InProgress --> Cancelled : Quản lý duyệt hủy toàn bộ món
+  Served --> InProgress : Gọi thêm món
+  Served --> Billed : In bill tạm [BR-12]
+  Billed --> InProgress : Gọi thêm sau khi in bill
+  Billed --> Paid : Thu đủ tiền
+  Paid --> [*]
+  Cancelled --> [*]
+  Draft : Draft (Nháp)
+  Submitted : Submitted (Đã gửi bếp)
+  InProgress : In Progress (Đang chế biến)
+  Served : Served (Đã phục vụ hết)
+  Billed : Billed (Đã in bill)
+  Paid : Paid (Đã thanh toán)
+  Cancelled : Cancelled (Đã hủy)

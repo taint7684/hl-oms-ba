@@ -1,0 +1,73 @@
+id,category,name_vi,name_en,price,lunch_price,station,allergens,modifier_groups,active
+M01,C1,Gỏi cuốn tôm thịt,Fresh rice paper rolls (prawn & pork),14.00,,COLD,CRU|PEA|FIS,,Y
+M02,C1,Gỏi cuốn chay,Fresh rice paper rolls (tofu),12.00,,COLD,SOY|PEA,,Y
+M03,C1,Chả giò,Crispy spring rolls,13.00,,HOT,GLU|CRU|EGG|FIS,,Y
+M04,C1,Chả giò chay,Vegetarian spring rolls,12.00,,HOT,GLU|SOY,,Y
+M05,C1,Cánh gà chiên nước mắm,Fish sauce chicken wings,15.00,,HOT,FIS|GLU,SPICE,Y
+M06,C1,Mực chiên muối ớt,Salt & pepper squid,16.00,,HOT,GLU|EGG,SPICE,Y
+M07,C1,Bánh xèo,Crispy Vietnamese pancake,16.00,,HOT,CRU|FIS,,Y
+M08,C1,Đậu hũ chiên sả ớt,Lemongrass chilli tofu,12.00,,HOT,SOY,SPICE,Y
+M09,C1,Tôm chiên bột,Tempura prawns,16.00,,HOT,CRU|GLU|EGG,,Y
+M10,C1,Bánh hỏi heo quay,Rice vermicelli sheets with roast pork,15.00,,HOT,FIS|PEA,,Y
+M11,C2,Gỏi gà bắp cải,Chicken & cabbage salad,17.00,,COLD,FIS|PEA,SPICE,Y
+M12,C2,Gỏi ngó sen tôm thịt,Lotus stem salad with prawn & pork,19.00,,COLD,CRU|FIS|PEA,SPICE,Y
+M13,C2,Gỏi đu đủ bò khô,Green papaya salad with beef jerky,17.00,,COLD,FIS|PEA|SOY,SPICE,Y
+M14,C2,Gỏi xoài tôm,Green mango & prawn salad,18.00,,COLD,CRU|FIS|PEA,SPICE,Y
+M15,C2,Gỏi bò tái chanh,Rare beef lime salad,19.00,,COLD,FIS|PEA,SPICE,Y
+M16,C2,Salad đậu hũ,Tofu garden salad,15.00,,COLD,SOY|SES,,Y
+M17,C3,Phở bò tái,Rare beef pho,20.00,17.50,HOT,FIS,SIZE|TOPPING,Y
+M18,C3,Phở bò chín,Brisket pho,20.00,,HOT,FIS,SIZE|TOPPING,Y
+M19,C3,Phở đặc biệt,Special combination pho,23.00,,HOT,FIS,SIZE|TOPPING,Y
+M20,C3,Phở gà,Chicken pho,19.00,16.50,HOT,FIS,SIZE|TOPPING,Y
+M21,C3,Phở chay,Vegetarian pho,18.00,,HOT,SOY,SIZE|TOPPING,Y
+M22,C3,Phở hải sản,Seafood pho,24.00,,HOT,CRU|FIS,SIZE|TOPPING,Y
+M23,C3,Phở xào bò,Stir-fried pho noodles with beef,22.00,,HOT,SOY|GLU|FIS,,Y
+M24,C3,Phở cuốn,Pho noodle rolls,16.00,,COLD,FIS|PEA,,Y
+M25,C4,Bún bò Huế,Hue spicy beef noodle soup,21.00,18.50,HOT,FIS|CRU,SPICE|TOPPING,Y
+M26,C4,Bún chả Hà Nội,Hanoi grilled pork with vermicelli,21.00,,HOT,FIS,,Y
+M27,C4,Bún thịt nướng chả giò,Grilled pork & spring roll vermicelli,20.00,17.50,COLD,FIS|PEA|GLU|CRU|EGG,,Y
+M28,C4,Bún gà nướng sả,Lemongrass chicken vermicelli,19.00,,COLD,FIS|PEA,,Y
+M29,C4,Bún tôm nướng,Grilled prawn vermicelli,22.00,,COLD,CRU|FIS|PEA,,Y
+M30,C4,Bún chay,Vegetarian vermicelli,17.00,,COLD,SOY|PEA,,Y
+M31,C4,Bún riêu cua,Crab & tomato noodle soup,21.00,,HOT,CRU|FIS|SOY,TOPPING,Y
+M32,C4,Bún mắm nêm bò,Beef vermicelli with anchovy dip,20.00,,COLD,FIS|PEA,SPICE,Y
+M33,C4,Bún cá,Fish noodle soup,21.00,,HOT,FIS,TOPPING,Y
+M34,C5,Cơm tấm sườn nướng,Broken rice with grilled pork chop,20.00,17.50,HOT,FIS|SOY,TOPPING,Y
+M35,C5,Cơm tấm sườn bì chả,Broken rice combination,23.00,,HOT,FIS|SOY|EGG,TOPPING,Y
+M36,C5,Cơm gà nướng sả,Lemongrass chicken rice,19.00,16.50,HOT,FIS,TOPPING,Y
+M37,C5,Cơm bò lúc lắc,Shaking beef rice,24.00,,HOT,SOY|GLU|FIS,,Y
+M38,C5,Cơm chiên dương châu,Yangzhou fried rice,18.00,15.50,HOT,EGG|CRU|SOY,TOPPING,Y
+M39,C5,Cơm chiên hải sản,Seafood fried rice,21.00,,HOT,CRU|EGG|SOY,TOPPING,Y
+M40,C5,Cơm đậu hũ sốt cà,Tofu in tomato sauce with rice,17.00,,HOT,SOY,,Y
+M41,C5,Cơm cá kho tộ,Caramelised fish in clay pot with rice,23.00,,HOT,FIS,,Y
+M42,C5,Cơm thịt kho trứng,Braised pork belly & egg with rice,21.00,,HOT,FIS|EGG,,Y
+M43,C6,Hủ tiếu Nam Vang,Phnom Penh noodle soup,21.00,,HOT,CRU|FIS,TOPPING,Y
+M44,C6,Mì xào giòn hải sản,Crispy egg noodles with seafood,23.00,,HOT,GLU|EGG|CRU|SOY,,Y
+M45,C6,Mì xào mềm bò,Soft egg noodles with beef,21.00,,HOT,GLU|EGG|SOY,,Y
+M46,C6,Mì vịt tiềm,Braised duck egg noodle soup,24.00,,HOT,GLU|EGG|SOY|SES,,Y
+M47,C6,Hủ tiếu xào chay,Stir-fried rice noodles with tofu,18.00,,HOT,SOY,,Y
+M48,C6,Mì Quảng gà,Quang-style turmeric noodles with chicken,21.00,18.50,HOT,FIS|PEA|SES,,Y
+M49,C7,Lẩu thái hải sản (2 người),Thai seafood hotpot (for two),58.00,,HOT,CRU|FIS,SPICE,Y
+M50,C7,Bò lúc lắc,Shaking beef,32.00,,HOT,SOY|GLU|FIS,,Y
+M51,C7,Cá chiên sốt mắm gừng,Crispy fish with ginger fish sauce,36.00,,HOT,FIS|GLU,,Y
+M52,C7,Gà kho gừng,Ginger braised chicken,28.00,,HOT,FIS|SOY,,Y
+M53,C7,Tôm rang me,Tamarind prawns,34.00,,HOT,CRU|FIS,,Y
+M54,C7,Rau muống xào tỏi,Water spinach with garlic,16.00,,HOT,SOY,,Y
+M55,C7,Đậu hũ tứ xuyên,Mapo-style tofu,22.00,,HOT,SOY|GLU,SPICE,Y
+M56,C7,Cơm trắng,Steamed jasmine rice,4.00,,HOT,,,Y
+M57,C8,Chè ba màu,Three-colour dessert,10.00,,COLD,,,Y
+M58,C8,Chè chuối nước cốt dừa,Banana & coconut sweet soup,10.00,,COLD,PEA|SES,,Y
+M59,C8,Bánh flan,Crème caramel,9.00,,COLD,EGG|MLK,,Y
+M60,C8,Kem dừa,Coconut ice cream,10.00,,COLD,MLK,,Y
+M61,C8,Bánh chuối nướng,Baked banana cake,11.00,,COLD,GLU|EGG|MLK,,Y
+M62,C8,Sương sáo hạt é,Grass jelly with basil seeds,8.00,,COLD,,,Y
+M63,C9,Cà phê sữa đá,Iced Vietnamese coffee,7.50,,BAR,MLK,,Y
+M64,C9,Cà phê đen đá,Iced black coffee,6.50,,BAR,,,Y
+M65,C9,Bạc xỉu,Coconut milk coffee,8.00,,BAR,MLK,,Y
+M66,C9,Trà đá,Iced jasmine tea,4.00,,BAR,,,Y
+M67,C9,Trà tắc,Kumquat iced tea,7.00,,BAR,,,Y
+M68,C9,Nước mía,Sugarcane juice,8.00,,BAR,,,Y
+M69,C9,Sinh tố bơ,Avocado smoothie,9.00,,BAR,MLK,,Y
+M70,C9,Nước dừa tươi,Fresh coconut,8.00,,BAR,,,Y
+M71,C9,Soda chanh,Lemon soda,6.00,,BAR,,,Y
+M72,C9,Bia Sài Gòn,Saigon beer,9.00,,BAR,GLU,,Y

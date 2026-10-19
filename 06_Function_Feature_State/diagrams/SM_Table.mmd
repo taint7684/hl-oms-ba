@@ -1,0 +1,18 @@
+stateDiagram-v2
+  direction LR
+  [*] --> Available
+  Available --> Occupied : Mở bàn, nhập số khách
+  Occupied --> Occupied : Chuyển bàn đi / nhận đơn ghép
+  Occupied --> Available : Chuyển hết sang bàn khác [bàn cũ chưa dùng]
+  Occupied --> Merged : Ghép vào bàn chính (BR-18)
+  Merged --> Occupied : Tách khỏi bàn chính
+  Occupied --> AwaitingPayment : In bill tạm
+  AwaitingPayment --> Occupied : Gọi thêm món
+  AwaitingPayment --> Cleaning : Thanh toán đủ (BR-17)
+  Merged --> Cleaning : Bàn chính thanh toán xong
+  Cleaning --> Available : Phục vụ xác nhận đã dọn
+  Available : Available (Trống)
+  Occupied : Occupied (Có khách)
+  Merged : Merged (Ghép)
+  AwaitingPayment : Awaiting Payment (Chờ thanh toán)
+  Cleaning : Cleaning (Cần dọn)

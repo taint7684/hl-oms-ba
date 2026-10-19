@@ -1,0 +1,27 @@
+stateDiagram-v2
+  direction TB
+  [*] --> New : Thêm món vào đơn
+  New --> [*] : Xóa trước khi gửi
+  New --> Queued : Gửi bếp (UC-02)
+  Queued --> Cooking : Bếp chạm món [không dị ứng HOẶC đã đọc dị ứng] (BR-04)
+  Cooking --> Ready : Bếp chạm Sẵn sàng
+  Ready --> Served : Phục vụ xác nhận / bếp chạm Đã lấy
+  Cooking --> Queued : Bếp trưởng hoàn tác
+  Ready --> Cooking : Bếp trưởng hoàn tác
+  Queued --> Cancelled : Phục vụ hủy (BR-05)
+  Cooking --> VoidPending : Yêu cầu hủy + lý do
+  Ready --> VoidPending : Yêu cầu hủy + lý do
+  Served --> VoidPending : Yêu cầu hủy + lý do
+  VoidPending --> Cancelled : Quản lý duyệt
+  VoidPending --> Cooking : Từ chối [trạng thái cũ = Đang nấu]
+  VoidPending --> Ready : Từ chối [cũ = Sẵn sàng]
+  VoidPending --> Served : Từ chối [cũ = Đã phục vụ]
+  Served --> [*]
+  Cancelled --> [*]
+  New : New (Mới)
+  Queued : Queued (Chờ nấu)
+  Cooking : Cooking (Đang nấu)
+  Ready : Ready (Sẵn sàng)
+  Served : Served (Đã phục vụ)
+  VoidPending : Void Pending (Chờ duyệt hủy)
+  Cancelled : Cancelled (Đã hủy)

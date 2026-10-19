@@ -1,0 +1,196 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1570" height="596" viewBox="0 0 1570 596" font-family="Segoe UI, Arial, sans-serif">
+<rect width="1570" height="596" fill="#fff"/>
+<rect x="655.0" y="30" width="260" height="56" rx="8" fill="#1f2937"/>
+<text x="785.0" y="55" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">HL-OMS</text>
+<text x="785.0" y="74" text-anchor="middle" font-size="11" fill="#d1d5db">Order Management System</text>
+<line x1="785.0" y1="86" x2="785.0" y2="108" stroke="#1f2937" stroke-width="1.4"/>
+<line x1="106.0" y1="108" x2="1464.0" y2="108" stroke="#1f2937" stroke-width="1.4"/>
+<line x1="106.0" y1="108" x2="106.0" y2="130" stroke="#1f2937" stroke-width="1.4"/>
+<rect x="18" y="130" width="176" height="58" rx="7" fill="#b4451f"/>
+<text x="106.0" y="152" text-anchor="middle" font-size="10" font-weight="700" fill="#fde7dd">F-01</text>
+<text x="106.0" y="171" text-anchor="middle" font-size="12.5" font-weight="700" fill="#fff">Quản lý menu</text>
+<line x1="32" y1="188" x2="32" y2="407.0" stroke="#d1d5db" stroke-width="1.6"/>
+<line x1="32" y1="233.0" x2="44" y2="233.0" stroke="#d1d5db" stroke-width="1.6"/>
+<rect x="44" y="210" width="150" height="46" rx="6" fill="#fbeee8" stroke="#f1c8b8"/>
+<text x="52" y="223" font-size="9" font-weight="700" fill="#b4451f">F-01.1</text>
+<text x="52" y="237" font-size="10.5" fill="#1f2937">Quản lý món và danh</text>
+<text x="52" y="249" font-size="10.5" fill="#1f2937">mục</text>
+<line x1="32" y1="291.0" x2="44" y2="291.0" stroke="#d1d5db" stroke-width="1.6"/>
+<rect x="44" y="268" width="150" height="46" rx="6" fill="#fbeee8" stroke="#f1c8b8"/>
+<text x="52" y="281" font-size="9" font-weight="700" fill="#b4451f">F-01.2</text>
+<text x="52" y="295" font-size="10.5" fill="#1f2937">Quản lý giá theo khung</text>
+<text x="52" y="307" font-size="10.5" fill="#1f2937">giờ</text>
+<line x1="32" y1="349.0" x2="44" y2="349.0" stroke="#d1d5db" stroke-width="1.6"/>
+<rect x="44" y="326" width="150" height="46" rx="6" fill="#fbeee8" stroke="#f1c8b8"/>
+<text x="52" y="339" font-size="9" font-weight="700" fill="#b4451f">F-01.3</text>
+<text x="52" y="353" font-size="10.5" fill="#1f2937">Quản lý tình trạng</text>
+<text x="52" y="365" font-size="10.5" fill="#1f2937">còn/hết</text>
+<line x1="32" y1="407.0" x2="44" y2="407.0" stroke="#d1d5db" stroke-width="1.6"/>
+<rect x="44" y="384" width="150" height="46" rx="6" fill="#fbeee8" stroke="#f1c8b8"/>
+<text x="52" y="397" font-size="9" font-weight="700" fill="#b4451f">F-01.4</text>
+<text x="52" y="411" font-size="10.5" fill="#1f2937">Quản lý tùy chọn và</text>
+<text x="52" y="423" font-size="10.5" fill="#1f2937">chất gây dị ứng</text>
+<line x1="300.0" y1="108" x2="300.0" y2="130" stroke="#1f2937" stroke-width="1.4"/>
+<rect x="212" y="130" width="176" height="58" rx="7" fill="#b4451f"/>
+<text x="300.0" y="152" text-anchor="middle" font-size="10" font-weight="700" fill="#fde7dd">F-02</text>
+<text x="300.0" y="171" text-anchor="middle" font-size="12.5" font-weight="700" fill="#fff">Quản lý bàn</text>
+<line x1="226" y1="188" x2="226" y2="349.0" stroke="#d1d5db" stroke-width="1.6"/>
+<line x1="226" y1="233.0" x2="238" y2="233.0" stroke="#d1d5db" stroke-width="1.6"/>
+<rect x="238" y="210" width="150" height="46" rx="6" fill="#fbeee8" stroke="#f1c8b8"/>
+<text x="246" y="223" font-size="9" font-weight="700" fill="#b4451f">F-02.1</text>
+<text x="246" y="237" font-size="10.5" fill="#1f2937">Hiển thị sơ đồ bàn và</text>
+<text x="246" y="249" font-size="10.5" fill="#1f2937">trạng thái</text>
+<line x1="226" y1="291.0" x2="238" y2="291.0" stroke="#d1d5db" stroke-width="1.6"/>
+<rect x="238" y="268" width="150" height="46" rx="6" fill="#fbeee8" stroke="#f1c8b8"/>
+<text x="246" y="281" font-size="9" font-weight="700" fill="#b4451f">F-02.2</text>
+<text x="246" y="295" font-size="10.5" fill="#1f2937">Mở bàn</text>
+<line x1="226" y1="349.0" x2="238" y2="349.0" stroke="#d1d5db" stroke-width="1.6"/>
+<rect x="238" y="326" width="150" height="46" rx="6" fill="#fbeee8" stroke="#f1c8b8"/>
+<text x="246" y="339" font-size="9" font-weight="700" fill="#b4451f">F-02.3</text>
+<text x="246" y="353" font-size="10.5" fill="#1f2937">Chuyển và ghép bàn</text>
+<line x1="494.0" y1="108" x2="494.0" y2="130" stroke="#1f2937" stroke-width="1.4"/>
+<rect x="406" y="130" width="176" height="58" rx="7" fill="#b4451f"/>
+<text x="494.0" y="152" text-anchor="middle" font-size="10" font-weight="700" fill="#fde7dd">F-03</text>
+<text x="494.0" y="171" text-anchor="middle" font-size="12.5" font-weight="700" fill="#fff">Quản lý đơn hàng</text>
+<line x1="420" y1="188" x2="420" y2="523.0" stroke="#d1d5db" stroke-width="1.6"/>
+<line x1="420" y1="233.0" x2="432" y2="233.0" stroke="#d1d5db" stroke-width="1.6"/>
+<rect x="432" y="210" width="150" height="46" rx="6" fill="#fbeee8" stroke="#f1c8b8"/>
+<text x="440" y="223" font-size="9" font-weight="700" fill="#b4451f">F-03.1</text>
+<text x="440" y="237" font-size="10.5" fill="#1f2937">Tạo đơn</text>
+<line x1="420" y1="291.0" x2="432" y2="291.0" stroke="#d1d5db" stroke-width="1.6"/>
+<rect x="432" y="268" width="150" height="46" rx="6" fill="#fbeee8" stroke="#f1c8b8"/>
+<text x="440" y="281" font-size="9" font-weight="700" fill="#b4451f">F-03.2</text>
+<text x="440" y="295" font-size="10.5" fill="#1f2937">Ghi tùy chọn, ghi chú,</text>
+<text x="440" y="307" font-size="10.5" fill="#1f2937">dị ứng</text>
+<line x1="420" y1="349.0" x2="432" y2="349.0" stroke="#d1d5db" stroke-width="1.6"/>
+<rect x="432" y="326" width="150" height="46" rx="6" fill="#fbeee8" stroke="#f1c8b8"/>
+<text x="440" y="339" font-size="9" font-weight="700" fill="#b4451f">F-03.3</text>
+<text x="440" y="353" font-size="10.5" fill="#1f2937">Gọi thêm món</text>
+<line x1="420" y1="407.0" x2="432" y2="407.0" stroke="#d1d5db" stroke-width="1.6"/>
+<rect x="432" y="384" width="150" height="46" rx="6" fill="#fbeee8" stroke="#f1c8b8"/>
+<text x="440" y="397" font-size="9" font-weight="700" fill="#b4451f">F-03.4</text>
+<text x="440" y="411" font-size="10.5" fill="#1f2937">Hủy món và hủy đơn</text>
+<line x1="420" y1="465.0" x2="432" y2="465.0" stroke="#d1d5db" stroke-width="1.6"/>
+<rect x="432" y="442" width="150" height="46" rx="6" fill="#fbeee8" stroke="#f1c8b8"/>
+<text x="440" y="455" font-size="9" font-weight="700" fill="#b4451f">F-03.5</text>
+<text x="440" y="469" font-size="10.5" fill="#1f2937">Gửi bếp</text>
+<line x1="420" y1="523.0" x2="432" y2="523.0" stroke="#d1d5db" stroke-width="1.6"/>
+<rect x="432" y="500" width="150" height="46" rx="6" fill="#fbeee8" stroke="#f1c8b8"/>
+<text x="440" y="513" font-size="9" font-weight="700" fill="#b4451f">F-03.6</text>
+<text x="440" y="527" font-size="10.5" fill="#1f2937">Đơn mang về</text>
+<line x1="688.0" y1="108" x2="688.0" y2="130" stroke="#1f2937" stroke-width="1.4"/>
+<rect x="600" y="130" width="176" height="58" rx="7" fill="#b4451f"/>
+<text x="688.0" y="152" text-anchor="middle" font-size="10" font-weight="700" fill="#fde7dd">F-04</text>
+<text x="688.0" y="171" text-anchor="middle" font-size="12.5" font-weight="700" fill="#fff">Quản lý bếp</text>
+<line x1="614" y1="188" x2="614" y2="465.0" stroke="#d1d5db" stroke-width="1.6"/>
+<line x1="614" y1="233.0" x2="626" y2="233.0" stroke="#d1d5db" stroke-width="1.6"/>
+<rect x="626" y="210" width="150" height="46" rx="6" fill="#fbeee8" stroke="#f1c8b8"/>
+<text x="634" y="223" font-size="9" font-weight="700" fill="#b4451f">F-04.1</text>
+<text x="634" y="237" font-size="10.5" fill="#1f2937">Nhận đơn theo trạm</text>
+<line x1="614" y1="291.0" x2="626" y2="291.0" stroke="#d1d5db" stroke-width="1.6"/>
+<rect x="626" y="268" width="150" height="46" rx="6" fill="#fbeee8" stroke="#f1c8b8"/>
+<text x="634" y="281" font-size="9" font-weight="700" fill="#b4451f">F-04.2</text>
+<text x="634" y="295" font-size="10.5" fill="#1f2937">Cập nhật trạng thái</text>
+<text x="634" y="307" font-size="10.5" fill="#1f2937">món</text>
+<line x1="614" y1="349.0" x2="626" y2="349.0" stroke="#d1d5db" stroke-width="1.6"/>
+<rect x="626" y="326" width="150" height="46" rx="6" fill="#fbeee8" stroke="#f1c8b8"/>
+<text x="634" y="339" font-size="9" font-weight="700" fill="#b4451f">F-04.3</text>
+<text x="634" y="353" font-size="10.5" fill="#1f2937">Cảnh báo dị ứng và món</text>
+<text x="634" y="365" font-size="10.5" fill="#1f2937">trễ</text>
+<line x1="614" y1="407.0" x2="626" y2="407.0" stroke="#d1d5db" stroke-width="1.6"/>
+<rect x="626" y="384" width="150" height="46" rx="6" fill="#fbeee8" stroke="#f1c8b8"/>
+<text x="634" y="397" font-size="9" font-weight="700" fill="#b4451f">F-04.4</text>
+<text x="634" y="411" font-size="10.5" fill="#1f2937">Tổng hợp bếp</text>
+<line x1="614" y1="465.0" x2="626" y2="465.0" stroke="#d1d5db" stroke-width="1.6"/>
+<rect x="626" y="442" width="150" height="46" rx="6" fill="#fbeee8" stroke="#f1c8b8"/>
+<text x="634" y="455" font-size="9" font-weight="700" fill="#b4451f">F-04.5</text>
+<text x="634" y="469" font-size="10.5" fill="#1f2937">Thông báo món sẵn sàng</text>
+<line x1="882.0" y1="108" x2="882.0" y2="130" stroke="#1f2937" stroke-width="1.4"/>
+<rect x="794" y="130" width="176" height="58" rx="7" fill="#b4451f"/>
+<text x="882.0" y="152" text-anchor="middle" font-size="10" font-weight="700" fill="#fde7dd">F-05</text>
+<text x="882.0" y="171" text-anchor="middle" font-size="12.5" font-weight="700" fill="#fff">Thanh toán</text>
+<line x1="808" y1="188" x2="808" y2="523.0" stroke="#d1d5db" stroke-width="1.6"/>
+<line x1="808" y1="233.0" x2="820" y2="233.0" stroke="#d1d5db" stroke-width="1.6"/>
+<rect x="820" y="210" width="150" height="46" rx="6" fill="#fbeee8" stroke="#f1c8b8"/>
+<text x="828" y="223" font-size="9" font-weight="700" fill="#b4451f">F-05.1</text>
+<text x="828" y="237" font-size="10.5" fill="#1f2937">Lập bill</text>
+<line x1="808" y1="291.0" x2="820" y2="291.0" stroke="#d1d5db" stroke-width="1.6"/>
+<rect x="820" y="268" width="150" height="46" rx="6" fill="#fbeee8" stroke="#f1c8b8"/>
+<text x="828" y="281" font-size="9" font-weight="700" fill="#b4451f">F-05.2</text>
+<text x="828" y="295" font-size="10.5" fill="#1f2937">Tính GST và phụ thu</text>
+<line x1="808" y1="349.0" x2="820" y2="349.0" stroke="#d1d5db" stroke-width="1.6"/>
+<rect x="820" y="326" width="150" height="46" rx="6" fill="#fbeee8" stroke="#f1c8b8"/>
+<text x="828" y="339" font-size="9" font-weight="700" fill="#b4451f">F-05.3</text>
+<text x="828" y="353" font-size="10.5" fill="#1f2937">Giảm giá</text>
+<line x1="808" y1="407.0" x2="820" y2="407.0" stroke="#d1d5db" stroke-width="1.6"/>
+<rect x="820" y="384" width="150" height="46" rx="6" fill="#fbeee8" stroke="#f1c8b8"/>
+<text x="828" y="397" font-size="9" font-weight="700" fill="#b4451f">F-05.4</text>
+<text x="828" y="411" font-size="10.5" fill="#1f2937">Tách bill</text>
+<line x1="808" y1="465.0" x2="820" y2="465.0" stroke="#d1d5db" stroke-width="1.6"/>
+<rect x="820" y="442" width="150" height="46" rx="6" fill="#fbeee8" stroke="#f1c8b8"/>
+<text x="828" y="455" font-size="9" font-weight="700" fill="#b4451f">F-05.5</text>
+<text x="828" y="469" font-size="10.5" fill="#1f2937">Thu tiền và hóa đơn</text>
+<line x1="808" y1="523.0" x2="820" y2="523.0" stroke="#d1d5db" stroke-width="1.6"/>
+<rect x="820" y="500" width="150" height="46" rx="6" fill="#fbeee8" stroke="#f1c8b8"/>
+<text x="828" y="513" font-size="9" font-weight="700" fill="#b4451f">F-05.6</text>
+<text x="828" y="527" font-size="10.5" fill="#1f2937">Chốt ca</text>
+<line x1="1076.0" y1="108" x2="1076.0" y2="130" stroke="#1f2937" stroke-width="1.4"/>
+<rect x="988" y="130" width="176" height="58" rx="7" fill="#b4451f"/>
+<text x="1076.0" y="152" text-anchor="middle" font-size="10" font-weight="700" fill="#fde7dd">F-06</text>
+<text x="1076.0" y="171" text-anchor="middle" font-size="12.5" font-weight="700" fill="#fff">Báo cáo</text>
+<line x1="1002" y1="188" x2="1002" y2="349.0" stroke="#d1d5db" stroke-width="1.6"/>
+<line x1="1002" y1="233.0" x2="1014" y2="233.0" stroke="#d1d5db" stroke-width="1.6"/>
+<rect x="1014" y="210" width="150" height="46" rx="6" fill="#fbeee8" stroke="#f1c8b8"/>
+<text x="1022" y="223" font-size="9" font-weight="700" fill="#b4451f">F-06.1</text>
+<text x="1022" y="237" font-size="10.5" fill="#1f2937">Báo cáo doanh thu</text>
+<line x1="1002" y1="291.0" x2="1014" y2="291.0" stroke="#d1d5db" stroke-width="1.6"/>
+<rect x="1014" y="268" width="150" height="46" rx="6" fill="#fbeee8" stroke="#f1c8b8"/>
+<text x="1022" y="281" font-size="9" font-weight="700" fill="#b4451f">F-06.2</text>
+<text x="1022" y="295" font-size="10.5" fill="#1f2937">Báo cáo món và thời</text>
+<text x="1022" y="307" font-size="10.5" fill="#1f2937">gian chế biến</text>
+<line x1="1002" y1="349.0" x2="1014" y2="349.0" stroke="#d1d5db" stroke-width="1.6"/>
+<rect x="1014" y="326" width="150" height="46" rx="6" fill="#fbeee8" stroke="#f1c8b8"/>
+<text x="1022" y="339" font-size="9" font-weight="700" fill="#b4451f">F-06.3</text>
+<text x="1022" y="353" font-size="10.5" fill="#1f2937">Nhật ký hủy món và</text>
+<text x="1022" y="365" font-size="10.5" fill="#1f2937">giảm giá</text>
+<line x1="1270.0" y1="108" x2="1270.0" y2="130" stroke="#1f2937" stroke-width="1.4"/>
+<rect x="1182" y="130" width="176" height="58" rx="7" fill="#b4451f"/>
+<text x="1270.0" y="152" text-anchor="middle" font-size="10" font-weight="700" fill="#fde7dd">F-07</text>
+<text x="1270.0" y="171" text-anchor="middle" font-size="12.5" font-weight="700" fill="#fff">Quản trị và kiểm soát</text>
+<line x1="1196" y1="188" x2="1196" y2="465.0" stroke="#d1d5db" stroke-width="1.6"/>
+<line x1="1196" y1="233.0" x2="1208" y2="233.0" stroke="#d1d5db" stroke-width="1.6"/>
+<rect x="1208" y="210" width="150" height="46" rx="6" fill="#fbeee8" stroke="#f1c8b8"/>
+<text x="1216" y="223" font-size="9" font-weight="700" fill="#b4451f">F-07.1</text>
+<text x="1216" y="237" font-size="10.5" fill="#1f2937">Quản lý người dùng và</text>
+<text x="1216" y="249" font-size="10.5" fill="#1f2937">vai trò</text>
+<line x1="1196" y1="291.0" x2="1208" y2="291.0" stroke="#d1d5db" stroke-width="1.6"/>
+<rect x="1208" y="268" width="150" height="46" rx="6" fill="#fbeee8" stroke="#f1c8b8"/>
+<text x="1216" y="281" font-size="9" font-weight="700" fill="#b4451f">F-07.2</text>
+<text x="1216" y="295" font-size="10.5" fill="#1f2937">Đăng nhập</text>
+<line x1="1196" y1="349.0" x2="1208" y2="349.0" stroke="#d1d5db" stroke-width="1.6"/>
+<rect x="1208" y="326" width="150" height="46" rx="6" fill="#fbeee8" stroke="#f1c8b8"/>
+<text x="1216" y="339" font-size="9" font-weight="700" fill="#b4451f">F-07.3</text>
+<text x="1216" y="353" font-size="10.5" fill="#1f2937">Duyệt yêu cầu</text>
+<line x1="1196" y1="407.0" x2="1208" y2="407.0" stroke="#d1d5db" stroke-width="1.6"/>
+<rect x="1208" y="384" width="150" height="46" rx="6" fill="#fbeee8" stroke="#f1c8b8"/>
+<text x="1216" y="397" font-size="9" font-weight="700" fill="#b4451f">F-07.4</text>
+<text x="1216" y="411" font-size="10.5" fill="#1f2937">Nhật ký thao tác</text>
+<line x1="1196" y1="465.0" x2="1208" y2="465.0" stroke="#d1d5db" stroke-width="1.6"/>
+<rect x="1208" y="442" width="150" height="46" rx="6" fill="#fbeee8" stroke="#f1c8b8"/>
+<text x="1216" y="455" font-size="9" font-weight="700" fill="#b4451f">F-07.5</text>
+<text x="1216" y="469" font-size="10.5" fill="#1f2937">Cấu hình ngày lễ, phụ</text>
+<text x="1216" y="481" font-size="10.5" fill="#1f2937">thu</text>
+<line x1="1464.0" y1="108" x2="1464.0" y2="130" stroke="#1f2937" stroke-width="1.4"/>
+<rect x="1376" y="130" width="176" height="58" rx="7" fill="#b4451f"/>
+<text x="1464.0" y="152" text-anchor="middle" font-size="10" font-weight="700" fill="#fde7dd">F-08</text>
+<text x="1464.0" y="171" text-anchor="middle" font-size="12.5" font-weight="700" fill="#fff">Vận hành liên tục</text>
+<line x1="1390" y1="188" x2="1390" y2="291.0" stroke="#d1d5db" stroke-width="1.6"/>
+<line x1="1390" y1="233.0" x2="1402" y2="233.0" stroke="#d1d5db" stroke-width="1.6"/>
+<rect x="1402" y="210" width="150" height="46" rx="6" fill="#fbeee8" stroke="#f1c8b8"/>
+<text x="1410" y="223" font-size="9" font-weight="700" fill="#b4451f">F-08.1</text>
+<text x="1410" y="237" font-size="10.5" fill="#1f2937">Chạy khi mất internet</text>
+<line x1="1390" y1="291.0" x2="1402" y2="291.0" stroke="#d1d5db" stroke-width="1.6"/>
+<rect x="1402" y="268" width="150" height="46" rx="6" fill="#fbeee8" stroke="#f1c8b8"/>
+<text x="1410" y="281" font-size="9" font-weight="700" fill="#b4451f">F-08.2</text>
+<text x="1410" y="295" font-size="10.5" fill="#1f2937">In phiếu dự phòng</text>
+</svg>

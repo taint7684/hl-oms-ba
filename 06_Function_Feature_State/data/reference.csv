@@ -1,0 +1,38 @@
+type,code,name_vi,name_en,value,note
+CATEGORY,C1,Khai vị,Starters,1,
+CATEGORY,C2,Gỏi và salad,Salads,2,
+CATEGORY,C3,Phở,Pho,3,
+CATEGORY,C4,Bún,Vermicelli,4,
+CATEGORY,C5,Cơm,Rice,5,
+CATEGORY,C6,Mì và hủ tiếu,Noodles,6,
+CATEGORY,C7,Món chia,To share,7,
+CATEGORY,C8,Tráng miệng,Desserts,8,
+CATEGORY,C9,Đồ uống,Drinks,9,
+STATION,HOT,Bếp nóng,Hot kitchen,15,Ngưỡng trễ (phút)
+STATION,COLD,Bếp lạnh,Cold kitchen,10,Ngưỡng trễ (phút)
+STATION,BAR,Quầy nước,Bar,5,Ngưỡng trễ (phút)
+ALLERGEN,GLU,Gluten (lúa mì),Gluten,,FSANZ Std 1.2.3
+ALLERGEN,CRU,Giáp xác (tôm cua),Crustacea,,FSANZ Std 1.2.3
+ALLERGEN,EGG,Trứng,Egg,,FSANZ Std 1.2.3
+ALLERGEN,FIS,Cá (gồm nước mắm),Fish,,FSANZ Std 1.2.3
+ALLERGEN,MLK,Sữa,Milk,,FSANZ Std 1.2.3
+ALLERGEN,PEA,Đậu phộng,Peanut,,FSANZ Std 1.2.3
+ALLERGEN,TRN,Hạt cây,Tree nuts,,FSANZ Std 1.2.3
+ALLERGEN,SES,Mè,Sesame,,FSANZ Std 1.2.3
+ALLERGEN,SOY,Đậu nành,Soy,,FSANZ Std 1.2.3
+ALLERGEN,SUL,Sulphite,Sulphites,,FSANZ Std 1.2.3
+ALLERGEN,LUP,Lupin,Lupin,,FSANZ Std 1.2.3
+MODIFIER,SPICE,Độ cay,Spice level,REQUIRED,Không cay +0 · Cay vừa +0 · Cay nhiều +0
+MODIFIER,SIZE,Cỡ,Size,REQUIRED,Thường +0 · Lớn +3.00
+MODIFIER,TOPPING,Thêm topping,Extra topping,OPTIONAL,Thêm bò +4.00 · Thêm tôm +4.50 · Thêm trứng +2.00 · Thêm rau +1.50
+PRICE_WINDOW,LUNCH,Lunch Special,Lunch Special,11:00-15:00,Thứ 2–6
+SURCHARGE,PH,Phụ thu ngày lễ,Public holiday surcharge,15,% trên (Tạm tính − Giảm giá)
+CANCEL_REASON,R1,Khách đổi ý,Customer changed mind,,
+CANCEL_REASON,R2,Gọi nhầm,Wrong entry,,
+CANCEL_REASON,R3,Hết món,Out of stock,,
+CANCEL_REASON,R4,Món lỗi,Quality issue,,
+CANCEL_REASON,R5,Khác,Other,,Bắt buộc ghi chữ
+DISCOUNT_REASON,D1,Khách quen,Regular customer,,
+DISCOUNT_REASON,D2,Phục vụ chậm,Service recovery,,
+DISCOUNT_REASON,D3,Khuyến mãi,Promotion,,
+DISCOUNT_REASON,D4,Khác,Other,,Bắt buộc ghi chữ
