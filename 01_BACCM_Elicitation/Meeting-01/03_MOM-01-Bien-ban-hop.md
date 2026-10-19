@@ -116,14 +116,16 @@ Ma trận phân quyền mức cao (chi tiết hóa ở SRS):
 
 ## 4. Việc cần làm
 
+Kết quả các việc: [Elicitation Results](../04_Elicitation-Results.md).
+
 | # | Việc | Phụ trách | Hạn | Trạng thái |
 |---|---|---|---|---|
-| AI-01 | Quan sát ca tối (job shadowing) 18:00–21:00 | BA | T6 06/11/2026 | Đã lên lịch |
-| AI-02 | Gửi 1 tuần phiếu giấy, sổ chốt ca, menu in, hóa đơn mẫu, sơ đồ mặt bằng | MGR | T4 04/11/2026 | Mở |
-| AI-03 | Khảo sát nhanh mức quen công nghệ của nhân viên (10 câu, Google Form) | BA | T6 06/11/2026 | Mở |
-| AI-04 | Kế toán xác nhận mẫu bill / tax invoice | OWN | T2 09/11/2026 | Mở |
-| AI-05 | Gửi lại MOM-01 để HL xác nhận | BA | T4 04/11/2026 | Mở |
-| AI-06 | Workshop phạm vi MVP + User Story Map | BA, MGR, CHF | T3 10/11/2026 | Mở |
+| AI-01 | Quan sát ca tối (job shadowing) 18:00–21:00 | BA | T6 06/11/2026 | Xong |
+| AI-02 | Gửi 1 tuần phiếu giấy, sổ chốt ca, menu in, hóa đơn mẫu, sơ đồ mặt bằng | MGR | T4 04/11/2026 | Xong |
+| AI-03 | Khảo sát nhanh mức quen công nghệ của nhân viên (10 câu, Google Form) | BA | T6 06/11/2026 | Xong |
+| AI-04 | Kế toán xác nhận mẫu bill / tax invoice | OWN | T2 09/11/2026 | Xong |
+| AI-05 | Gửi lại MOM-01 để HL xác nhận | BA | T4 04/11/2026 | Xong |
+| AI-06 | Workshop phạm vi MVP + User Story Map | BA, MGR, CHF | T3 10/11/2026 | Xong |
 
 ## 5. Quyết định
 

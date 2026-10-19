@@ -47,13 +47,15 @@ flowchart LR
 | BA | BA (vendor) | Elicitation, viết story + AC, BRD/SRS, UAT; hỗ trợ PO |
 | Dev Team | 2 FE, 1 BE, 1 QA (vendor) | Xây dựng, kiểm thử |
 
+Thời lượng theo Scrum Guide, quy đổi cho sprint 2 tuần (tối đa bằng một nửa mức của sprint 1 tháng).
+
 | Sự kiện | Tần suất | Thời lượng | Thành phần |
 |---|---|---|---|
-| Sprint Planning | Đầu sprint | 2 giờ | PO, BA, Dev, SM |
+| Sprint Planning | Đầu sprint | 4 giờ | PO, BA, Dev, SM |
 | Daily Scrum | Hằng ngày | 15 phút | Dev, SM, BA |
 | Backlog Refinement | Giữa sprint | 1 giờ | PO, BA, Dev |
-| Sprint Review (demo tại nhà hàng) | Cuối sprint | 1 giờ | PO, OWN, CHF, BA, Dev |
-| Retrospective | Cuối sprint | 45 phút | Dev, SM, BA |
+| Sprint Review (demo tại nhà hàng) | Cuối sprint | 2 giờ | PO, OWN, CHF, BA, Dev |
+| Retrospective | Cuối sprint | 1,5 giờ | Dev, SM, BA |
 
 **Lịch release:**
 
@@ -76,7 +78,7 @@ flowchart LR
 |---|---|
 | Tiếp cận | Lai: tài liệu nền (BRD/SRS) chốt ở Discovery; chi tiết sống trong Product Backlog |
 | Stakeholder | Phân tích ảnh hưởng/quan tâm ở GĐ4; kênh: họp tại nhà hàng ngoài giờ cao điểm (14:30–16:30), nhóm chat dự án, demo cuối sprint |
-| Elicitation | Phỏng vấn → quan sát ca tối → khảo sát nhân viên → review tài liệu → workshop phạm vi (xem [Elicitation Plan](../01_BACCM_Elicitation/02_Elicitation-Plan.md)) |
+| Elicitation | Vòng lặp: cần thông tin → chuẩn bị câu hỏi → elicit → nhận thông tin. Phỏng vấn → quan sát ca tối → khảo sát nhân viên → review tài liệu → interface analysis → workshop phạm vi (xem [Elicitation Plan](../01_BACCM_Elicitation/02_Elicitation-Plan.md)) |
 | Mã truy vết | `BN` Business Need · `US` User Story · `BR` Business Rule · `NFR` · `BP` quy trình · `UC` Use Case · `F` Function · `SCR` màn hình · `TC` test case · `A`/`Q`/`D`/`CR`/`RK` log |
 | Thuộc tính yêu cầu | ID · nguồn · độ ưu tiên (MoSCoW) · trạng thái · người duyệt · liên kết |
 | Truy vết | Ma trận BN → US → UC → F → SCR → TC, cập nhật mỗi khi thêm/sửa yêu cầu |

@@ -74,6 +74,6 @@ Xem [BACCM](../01_BACCM.md) (bản 1.0 dùng giả định; bản 1.1 bổ sung 
 | Quan sát (job shadowing) | Ca tối T6: phục vụ chạy phiếu, bếp đọc phiếu, thu ngân cộng bill | Sau họp 1 |
 | Khảo sát | Mức quen công nghệ của nhân viên | Sau họp 1 |
 | Review tài liệu | Phiếu giấy, menu, hóa đơn, sổ chốt ca, mặt bằng | Sau họp 1 |
-| Phân tích giao diện | KDS, máy in nhiệt, máy EFTPOS | Sau quan sát |
+| Interface analysis | Đánh giá Google, khiếu nại của khách; user testing prototype; review với dev | Sau họp 1, khi có prototype |
 
 Kế hoạch chi tiết: [Elicitation Plan](../02_Elicitation-Plan.md).

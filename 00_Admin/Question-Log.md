@@ -33,7 +33,7 @@
 | Q-010 | Giao diện và menu cần ngôn ngữ nào? | UI, dữ liệu menu | MGR | Phỏng vấn | M | A-14 | Đóng | Giao diện EN + VI tùy chọn; tên món song ngữ | MOM-01 §3.3 |
 | Q-011 | Sơ đồ bàn thế nào? Có ghép bàn, chuyển bàn không? | Màn sơ đồ bàn, UC | MGR | Quan sát + Review tài liệu (sơ đồ mặt bằng) | H | A-01 | Đóng | 18 bàn trong + 4 hiên; ghép bàn cho nhóm ≥ 8 người; chuyển bàn ~3 lần/tối | MOM-01 §3.1 |
 | Q-012 | Phục vụ cầm thiết bị khi đi lại thế nào? Cần thao tác một tay không? | NFR usability | WTR | Quan sát (job shadowing) | M | A-04 | Đóng | Cần một tay, tay kia bưng khay; muốn ≤ 3 chạm cho món phổ biến | MOM-01 §3.3 |
-| Q-013 | Bếp muốn xem đơn trên màn hình hay phiếu in? | Thiết kế KDS | CHF | Phỏng vấn + Phân tích giao diện | H | A-05 | Đóng | Màn hình; giữ máy in dự phòng khi mất mạng | MOM-01 §3.3 |
+| Q-013 | Bếp muốn xem đơn trên màn hình hay phiếu in? | Thiết kế KDS | CHF | Phỏng vấn + Interface analysis (user testing) | H | A-05 | Đóng | Màn hình; giữ máy in dự phòng khi mất mạng | MOM-01 §3.3 |
 | Q-014 | Bếp chia trạm thế nào? Món nào cần ưu tiên? | Định tuyến đơn | CHF | Quan sát | H | A-12 | Đóng | Bếp nóng · Bếp lạnh · Quầy nước; khai vị và nước ra trước | MOM-01 §3.3 |
 
 ### (3) Nội dung sản phẩm
@@ -102,5 +102,5 @@
 | Quan sát (job shadowing) | Q-007, Q-011, Q-012, Q-014, Q-023 | As-Is thực tế, điểm nghẽn, NFR usability |
 | Khảo sát | Q-029 | Mức quen công nghệ của nhân viên |
 | Review tài liệu | Q-005, Q-011, Q-015, Q-016, Q-018, Q-020, Q-028 | Menu, hóa đơn, sổ chốt ca, phân ca, mặt bằng |
-| Phân tích giao diện | Q-013 | Đầu vào/ra giữa OMS – KDS – máy in – EFTPOS |
+| Interface analysis (phản hồi khách, user testing, review với dev) | Q-002, Q-013 | Điểm đau từ khách; phản hồi trên prototype |
 | Workshop | Q-026 | Ma trận phân quyền |
