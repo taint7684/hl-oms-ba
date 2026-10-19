@@ -70,14 +70,14 @@ def rect(slide, x, y, w, h, fill=SOFT, line=None, shape=MSO_SHAPE.RECTANGLE):
     return s
 
 
-def header(prs, kicker, title, page, total):
+def header(prs, kicker, title, page, total, foot="HL-OMS · Họp khởi động · 03/11/2026"):
     """Slide nội dung: nhãn nhỏ + tiêu đề + chân trang."""
     s = _blank(prs)
     rect(s, MX, Inches(0.55), Inches(0.08), Inches(0.75), fill=ACCENT)
     text(s, MX + Inches(0.22), Inches(0.5), CW, Inches(0.35), kicker.upper(), 11, True, ACCENT)
     text(s, MX + Inches(0.22), Inches(0.82), CW, Inches(0.6), title, 26, True)
     s.shapes.add_connector(1, MX, H - Inches(0.55), W - MX, H - Inches(0.55)).line.color.rgb = LINE
-    text(s, MX, H - Inches(0.5), Inches(6), Inches(0.3), "HL-OMS · Họp khởi động · 03/11/2026", 9, color=MUTED)
+    text(s, MX, H - Inches(0.5), Inches(6), Inches(0.3), foot, 9, color=MUTED)
     text(s, W - MX - Inches(2), H - Inches(0.5), Inches(2), Inches(0.3), f"{page} / {total}", 9,
          color=MUTED, align=PP_ALIGN.RIGHT)
     return s
@@ -120,3 +120,14 @@ def card(slide, x, y, w, h, title, body, size=12, fill=SOFT, title_color=ACCENT)
     rect(slide, x, y, w, h, fill=fill)
     text(slide, x + Inches(0.2), y + Inches(0.15), w - Inches(0.4), Inches(0.4), title, 14, True, title_color)
     text(slide, x + Inches(0.2), y + Inches(0.6), w - Inches(0.4), h - Inches(0.7), body, size)
+
+
+def picture(slide, path, x, y, w=None, h=None):
+    """Ảnh giữ tỉ lệ, vừa trong khung w × h."""
+    from PIL import Image
+    iw, ih = Image.open(path).size
+    if w and h:
+        k = min(w / iw, h / ih)
+        w, h = iw * k, ih * k
+    x, y, w, h = _i(x, y, w, h)
+    return slide.shapes.add_picture(str(path), x, y, w, h)
