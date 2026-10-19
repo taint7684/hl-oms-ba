@@ -1,0 +1,14 @@
+flowchart TD
+  A([Phiếu mới hiện trên KDS]) --> B{Có dải đỏ dị ứng?}
+  B -- Có --> C[Đọc → bấm ĐÃ ĐỌC DỊ ỨNG]
+  B -- Không --> D
+  C --> D[Chạm món → Đang nấu]
+  D --> E{Phiếu đổi cam/đỏ?}
+  E -- Có --> F[Bếp trưởng ưu tiên, điều phối] --> G
+  E -- Không --> G[Nấu xong → chạm Sẵn sàng]
+  G --> H[Điện thoại phục vụ rung + thông báo]
+  H --> I{Phục vụ lấy trong 2 phút?}
+  I -- Không --> J[Nhắc lại thông báo] --> I
+  I -- Có --> K[Bấm Đã lấy / Đã phục vụ] --> L([Phiếu rời KDS])
+  A -.-> M{KDS lỗi?}
+  M -- Có --> N[In phiếu ra máy in dự phòng]

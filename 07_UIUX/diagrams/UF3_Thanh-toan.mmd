@@ -1,0 +1,18 @@
+flowchart TD
+  A([Khách xin tính tiền]) --> B[SCR-09 Chọn bàn]
+  B --> C{Mọi món đã phục vụ / hủy?}
+  C -- Chưa --> D[Hiện danh sách món còn treo] --> X([Xử lý rồi quay lại])
+  C -- Rồi --> E[SCR-11 Bill: tạm tính, phụ thu, GST]
+  E --> F{Giảm giá?}
+  F -- ≤ 10% --> G[Áp ngay]
+  F -- "Vượt 10%" --> H[Gửi Quản lý duyệt SCR-14] --> G
+  F -- Không --> I
+  G --> I[In bill tạm cho khách]
+  I --> J{Trả riêng?}
+  J -- Có --> K[SCR-10 Tách theo món hoặc chia đều] --> L
+  J -- Không --> L{Phương thức}
+  L -- EFTPOS --> M[Quẹt máy EFTPOS → xác nhận]
+  L -- Tiền mặt --> N[Nhập tiền khách đưa → làm tròn 5c → tiền thừa]
+  M --> O[In hóa đơn / tax invoice]
+  N --> O
+  O --> P([Bàn chuyển Cần dọn])

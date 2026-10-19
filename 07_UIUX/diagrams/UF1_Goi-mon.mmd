@@ -1,0 +1,21 @@
+flowchart TD
+  A([Phục vụ mở app]) --> B[SCR-01 Nhập PIN]
+  B --> C[SCR-02 Sơ đồ bàn]
+  C --> D{Bàn trống?}
+  D -- Có --> E[Nhập số khách → Mở bàn]
+  D -- Có khách --> F[SCR-05 Đơn của bàn]
+  E --> G[SCR-03 Gọi món]
+  F --> G
+  G --> H{Món còn bán?}
+  H -- Hết --> I[Thông báo Hết + gợi ý món cùng danh mục] --> G
+  H -- Còn --> J{Có tùy chọn bắt buộc?}
+  J -- Không --> K[Chạm + thêm nhanh]
+  J -- Có --> L[SCR-04 Chọn tùy chọn, dị ứng, ghi chú]
+  L --> M{Món chứa chất khách dị ứng?}
+  M -- Có --> N[Cảnh báo vàng → báo khách] --> O
+  M -- Không --> O[Thêm vào đơn]
+  K --> P{Thêm món khác?}
+  O --> P
+  P -- Có --> G
+  P -- Không --> Q[SCR-05 Kiểm tra lại với khách]
+  Q --> R[Bấm Gửi bếp] --> S([Món ở trạng thái Chờ nấu])
