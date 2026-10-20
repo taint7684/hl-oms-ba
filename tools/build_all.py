@@ -15,6 +15,7 @@ STEPS = [
     ("Mermaid (state, sitemap, flow)", ["mermaid.py", str(T.parent / "06_Function_Feature_State/diagrams"), str(T.parent / "07_UIUX/diagrams")]),
     ("Dữ liệu prototype", ["build_proto_data.py"]),
     ("Kiểm prototype E2E + ảnh màn hình", ["test_prototype.py"]),
+    ("Ảnh bìa README", ["build_banner.py"]),
     ("RTM + kiểm truy vết", ["build_rtm.py"]),
     ("Word (BRD, SRS, UAT…)", ["build_docs.py"]),
     ("Pitch deck", ["build_pitch_deck.py"]),

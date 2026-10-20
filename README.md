@@ -2,6 +2,9 @@
 
 Case study Business Analysis đầy đủ chuỗi **Elicitation → User Story → Business Process → Use Case → Function & State → UI/UX → BRD/SRS/UAT → Pitching**, có ma trận truy vết tự động và prototype chạy được.
 
+![Prototype HL-OMS: màn hình bếp, sơ đồ bàn, chi tiết món, thanh toán, báo cáo](docs/banner.png)
+<sub>Prototype 19 màn hình: màn hình bếp (KDS) với cảnh báo dị ứng và món trễ · app phục vụ · quầy thu ngân · báo cáo quản lý</sub>
+
 | Hạng mục | Nội dung |
 |---|---|
 | Khách hàng | HL Restaurant — nhà hàng Việt tại Sydney CBD, Úc (case giả lập) |
@@ -31,6 +34,36 @@ Case study Business Analysis đầy đủ chuỗi **Elicitation → User Story �
 | Tài liệu Word | [BRD](08_Documents/word/HL-OMS_BRD.docx) · [SRS](08_Documents/word/HL-OMS_SRS.docx) · [UAT](08_Documents/word/HL-OMS_UAT.docx) · [User Guide](08_Documents/word/HL-OMS_User-Guide.docx) · [Go-live Plan](08_Documents/word/HL-OMS_Go-Live-Plan.docx) |
 | Ma trận truy vết | [RTM.md](08_Documents/RTM.md) · [RTM.xlsx](08_Documents/RTM.xlsx) |
 | Slide | [Họp 1](01_BACCM_Elicitation/Meeting-01/02_HL-OMS_Meeting-01.pptx) · [Pitch deck](09_Pitching/HL-OMS_Pitch-Deck.pptx) |
+
+## Hình ảnh dự án
+
+### Quy trình: từ phiếu giấy tới đơn số
+
+| As-Is — 6 điểm đau (chấm đỏ) | To-Be — đơn tới bếp ≤ 2 giây |
+|---|---|
+| ![BP1 As-Is](04_Business_Process/diagrams/BP1_AsIs.png) | ![BP1 To-Be](04_Business_Process/diagrams/BP1_ToBe.png) |
+
+### User Story Map — 40 story, 10 Epic, 3 lớp phát hành
+
+![User Story Map](03_User_Story/02_User-Story-Map.png)
+
+### Use Case và cấu trúc chức năng
+
+| Use Case Diagram cấp 2 — 20 use case | Business Function Diagram — 34 function |
+|---|---|
+| ![UCD cấp 2](05_Use_Case_Activity/diagrams/UCD_L2.png) | ![BFD](06_Function_Feature_State/diagrams/BFD.png) |
+
+### Vòng đời đơn hàng và món
+
+| State Machine — Order | State Machine — Order Item |
+|---|---|
+| ![SM Order](06_Function_Feature_State/diagrams/SM_Order.png) | ![SM Order Item](06_Function_Feature_State/diagrams/SM_OrderItem.png) |
+
+### Sitemap và luồng thanh toán
+
+| Sitemap — 4 ứng dụng, 19 màn hình | Activity — UC-05 Thanh toán |
+|---|---|
+| ![Sitemap](07_UIUX/diagrams/Sitemap.png) | ![Activity UC-05](05_Use_Case_Activity/diagrams/ACT_UC05.png) |
 
 ## Sản phẩm theo giai đoạn
 
